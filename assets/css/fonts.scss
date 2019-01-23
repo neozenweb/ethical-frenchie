@@ -1,50 +1,60 @@
 @font-face {
   font-display: swap;
-  font-family: '-optimized';
-  font-weight: 400;
+  font-family: 'Montserrat';
+  font-weight: 300;
   font-style: normal;
-  src: local(-optimized),
-       local(-optimized),
-       url("/fonts/-optimized.woff2") format("woff2"),
-       url("/fonts/-optimized.woff") format("woff");
+  src: local(Montserrat-Light),
+       local(Montserrat-Light),
+       url("/fonts/Montserrat-Light.woff2") format("woff2"),
+       url("/fonts/Montserrat-Light.woff") format("woff");
 }
 @font-face {
   font-display: swap;
-  font-family: '';
+  font-family: 'Montserrat';
   font-weight: 400;
   font-style: normal;
-  src: local(),
-       local(),
-       url("/fonts/.woff2") format("woff2"),
-       url("/fonts/.woff") format("woff");
+  src: local(Montserrat-Regular),
+       local(Montserrat-Regular),
+       url("/fonts/Montserrat-Regular.woff2") format("woff2"),
+       url("/fonts/Montserrat-Regular.woff") format("woff");
 }
 @font-face {
   font-display: swap;
-  font-family: '';
+  font-family: 'Montserrat';
   font-weight: 400;
   font-style: italic;
-  src: local(),
-       local(),
-       url("/fonts/.woff2") format("woff2"),
-       url("/fonts/.woff") format("woff");
+  src: local(Montserrat-Italic),
+       local(Montserrat-Italic),
+       url("/fonts/Montserrat-Italic.woff2") format("woff2"),
+       url("/fonts/Montserrat-Italic.woff") format("woff");
 }
 @font-face {
   font-display: swap;
-  font-family: '';
-  font-weight: 600;
+  font-family: 'Montserrat';
+  font-weight: 700;
   font-style: bold;
-  src: local(),
-       local(),
-       url("/fonts/.woff2") format("woff2"),
-       url("/fonts/.woff") format("woff");
+  src: local(Montserrat-Bold),
+       local(Montserrat-Bold),
+       url("/fonts/Montserrat-Bold.woff2") format("woff2"),
+       url("/fonts/Montserrat-Bold.woff") format("woff");
 }
-
-body {
-  font-family: sans-serif;
+@font-face {
+  font-display: swap;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-style: normal;
+  src: local(Ubuntu-Regular),
+       local(Ubuntu-Regular),
+       url("/fonts/Ubuntu-Regular.woff2") format("woff2"),
+       url("/fonts/Ubuntu-Regular.woff") format("woff");
 }
-.fonts-loaded-1 body {
-  font-family: '-optimized';
-}
-.fonts-loaded-2 body {
-  font-family: '';
+@font-face {
+  font-display: swap;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-style: bold;
+  src: local(Ubuntu-Bold),
+       local(Ubuntu-Bold),
+       url("/fonts/Ubuntu-Bold.woff2") format("woff2"),
+       url("/fonts/Ubuntu-Bold.woff") format("woff");
 }
