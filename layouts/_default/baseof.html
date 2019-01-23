@@ -73,24 +73,45 @@
   <link rel="apple-touch-icon" sizes="167x167" href="{{ $ati167.Permalink }}">
   {{ ati180 := resources.Get "icons/apple-touch-icon-180x180.png" }}
   <link rel="apple-touch-icon" sizes="180x180" href="{{ $ati180.Permalink }}">
-  {{ spt := resources.Get "icons/safari-pinned-tab.svg" | minify }}
-  <link rel="mask-icon" color="#900c3f" href="{{ $spt.Permalink }}">
+  <!-- {{ spt := resources.Get "icons/safari-pinned-tab.svg" | minify }}
+  <link rel="mask-icon" color="#900c3f" href="{{ $spt.Permalink }}"> -->
 
   <!-- Android Chrome Icon -->
   {{ i128 := resources.Get "icons/icon-128x128.png" }}
   <link rel="icon" sizes="128x128" href="{{ $i128.Permalink }}">
   {{ i192 := resources.Get "icons/icon-192x192.png" }}
   <link rel="icon" sizes="192x192" href="{{ $i192.Permalink }}">
-  {{ i512 := resources.Get "icons/icon-512x512.png" }}
-  <link rel="icon" sizes="512x512" href="{{ $i512.Permalink }}">
+  <!-- {{ i512 := resources.Get "icons/icon-512x512.png" }}
+  <link rel="icon" sizes="512x512" href="{{ $i512.Permalink }}"> -->
 </head>
 <body>
   {{ block "main" . }}
   {{ end }}
 
-  {{ partial "scripts.html" . }}
-
+  
   {{ $js := resources.Get "js/lazy-loading.js" | minify }}
   <script src="{{ $js.Permalink }}"></script>
+  <script>
+    var myLazyLoad = new LazyLoad({
+      elements_selector: ".lazy",
+      threshold: 500,
+      class_loading: "loading",
+      class_error: "error"
+    });
+  </script>
+  <!-- SW -->
+  <!-- <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register("/sw.js", { scope: "/" });
+      navigator.serviceWorker.ready.then(registration => {
+        console.log("Service Worker Ready");
+      });
+      window.addEventListener("load", () => {
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.postMessage({ command: "trimCaches" });
+        }
+      });
+    }
+  </script> -->
 </body>
 </html>
