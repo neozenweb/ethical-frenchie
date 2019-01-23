@@ -1,0 +1,36 @@
+baseURL = "/"
+copyright = "Ethical Frenchie LLC"
+enableEmoji = "true"
+enableRobotsTXT = "true"
+languageCode = "en-us"
+title = "Ethical Frenchie"
+
+SectionPagesMenu = "main"
+
+[permalinks]
+  blog = "/:title/"
+
+
+[blackfriday]
+  hrefTargetBlank = true
+  plainIDAnchors = true
+
+[params]
+  OpenLinksInNewWindow = true
+  social = ""
+  description = "Ethical Frenchie is the most trusted source of French Bulldog puppies for sale. We provides thorough veterinary and genetic examinations for each puppy."
+  keywords = ""
+  [author]
+    name = "James Harrison"
+    email = "adopt@ethicalfrenchie.com"
+  [dev]
+    name = "Juan Villela"
+    email = "hello@juanvillela.me"
+
+[params.google]
+  analytics = ""
+  tagManager = ""
+  adsense = ""
+
+[outputs]
+  home = ["html", "rss"]
