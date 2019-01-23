@@ -39,6 +39,7 @@ function watchFiles() {
   gulp.watch('assets/css/extends.scss', critical);
   gulp.watch('assets/css/fonts.scss', critical);
   gulp.watch('assets/css/mixins.scss', critical);
+  gulp.watch('assets/css/navbar.scss', critical);
   gulp.watch('assets/css/reset.scss', critical);
 }
 

@@ -1,0 +1,36 @@
+nav#static-navbar {
+  @extend %content-space-around;
+  @extend %fixed;
+  @extend %full-width;
+  @extend %items-center;
+  background-color: $background;
+  bottom: 0;
+  box-shadow: 0 -5px 10px 0 rgba(0,0,0,0.06);
+  left: 0;
+  min-height: 60px;
+  padding: 0 10px;
+  right: 0;
+  z-index: 20;
+  a {
+    @extend %content-space-between;
+    @extend %flex;
+    @extend %flex-column;
+    @extend %items-center;
+    @extend %no-decoration;
+    margin: 0 10px;
+    &.current {
+      color: $main;
+      svg {
+        fill: $main;
+      }
+    }
+    svg {
+      height: 20px;
+      margin-bottom: 3px;
+      width: 20px;
+    }
+    span {
+      font-size: 10px;
+    }
+  }
+}

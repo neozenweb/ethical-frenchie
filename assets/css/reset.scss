@@ -13,7 +13,7 @@ a:active,
 a:hover,
 article h2 a:active,
 article h2 a:hover, {
-  color: $link;
+  color: $main;
   text-decoration: underline;
 }
 a svg {
@@ -21,7 +21,7 @@ a svg {
 }
 a:active svg,
 a:hover svg {
-  fill: $link;
+  fill: $main;
 }
 a.meta,
 hr,
@@ -34,7 +34,7 @@ a.meta:hover {
 }
 article {
   a {
-    color: $link;
+    color: $main;
   }
   a:active,
   a:hover {
@@ -50,7 +50,7 @@ main {
   width: 100%;
 }
 blockquote {
-  border-left-color: $link;
+  border-left-color: $main;
   border-left-style: solid;
   border-left-width: 1px;
   margin: 0 0 15px 0;

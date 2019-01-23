@@ -1,8 +1,8 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
   <main class="list">
-    {{ paginator  := .Paginate (where .Data.Pages "Type" "home" ) 5 }}
-    {{ range paginator.Pages }}
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "home" ) 5 }}
+    {{ range $paginator.Pages }}
       {{ .Render "summary" }}
     {{ end }}
   </main>
