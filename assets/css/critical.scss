@@ -40,20 +40,6 @@ body {
     right: 0;
     top: 0;
     z-index: 20;
-    a {
-      @extend %no-decoration;
-      color: $text;
-      font-size: 13px;
-      text-transform: uppercase;
-      &:hover {
-        @extend %no-decoration;
-        color: $text;
-      }
-      span {
-        color: $main;
-        margin: 0;
-      }
-    }
   }
   main {
     margin: 55px 0 0;
@@ -61,6 +47,7 @@ body {
     section.hero-slideshow {
       @extend %full-width;
       height: 885px;
+      margin-bottom: 20px;
       @include media-query-max($dsk) {
         height: 765px;
       }
@@ -161,35 +148,59 @@ body {
         }
       }
       nav.cta-social {
-        @extend %content-space-around;
-        @extend %flex;
-        @extend %items-center;
-        @extend %relative;
         margin: -20px auto 0;
-        width: 190px;
-        z-index: 20;
-        a {
-          @extend %content-center;
-          @extend %flex;
-          @extend %items-center;
-          border-radius: 6px;
-          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
-          height: 40px;
-          width: 40px;
-          &.facebook {
-            background-color: #3B5998;
-          }
-          &.instagram {
-            background-color: #E1306C;
-          }
-          &.tel {
-            background-color: #8CC152;
-          }
-          img {
-            height: 15px;
-            widows: 15px;
-          }
-        }
+      }
+    }
+  }
+  a.brand {
+    @extend %no-decoration;
+    color: $text;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    &:hover {
+      @extend %no-decoration;
+      color: $text;
+    }
+    span {
+      color: $main;
+      margin: 0;
+    }
+  }
+  nav.cta-social {
+    @extend %content-space-around;
+    @extend %flex;
+    @extend %items-center;
+    @extend %relative;
+    width: 190px;
+    z-index: 20;
+    button {
+      border: none;
+      outline: none;
+    }
+    > * {
+      @extend %content-center;
+      @extend %flex;
+      @extend %items-center;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
+      height: 40px;
+      width: 40px;
+      &.facebook {
+        background-color: #3B5998;
+      }
+      &.instagram {
+        background-color: #E1306C;
+      }
+      &.tel {
+        background-color: #8CC152;
+      }
+      &.scroll-up {
+        background-color: #656D78;
+      }
+      img {
+        height: 15px;
+        width: 15px;
       }
     }
   }
