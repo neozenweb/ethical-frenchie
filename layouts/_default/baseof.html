@@ -92,10 +92,7 @@
       });
     </script>
   {{ end }}
-  <script>
-    function scrollUp() {
-      window.scrollTo({top:0,behavior:'smooth'});
-    }
-  </script>
+  {{ $smooth := resources.Get "js/smooth.js" | minify }}
+  <script src="{{ $smooth.Permalink }}"></script>
 </body>
 </html>

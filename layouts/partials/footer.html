@@ -16,7 +16,7 @@
         {{ $phone := resources.Get "img/phone.svg" | minify }}
         <img src="{{ $phone.Permalink }}" alt="Connect with us on Facebook">
       </a>
-    <button class="social-icon scroll-up" onclick="scrollUp()">
+    <button class="social-icon scroll-up" onclick="scrollPageTo('body');">
       {{ $up := resources.Get "img/up.svg" | minify }}
       <img src="{{ $up.Permalink }}" alt="Connect with us on Facebook">
     </button>
