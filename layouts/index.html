@@ -1,10 +1,66 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
-  <main class="list">
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "home" ) 5 }}
-    {{ range $paginator.Pages }}
-      {{ .Render "summary" }}
-    {{ end }}
+  <main>
+    <section class="hero-slideshow">
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Slides -->
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            {{ $hero1 := resources.Get "img/hero-1.jpg" }}
+            <div class="background-img" style="background-image:url('{{ $hero1.Permalink }}');">
+              <div class="overlay">
+                <div class="hero-contact">
+                  <h2>Ethical Frenchie</h2>
+                  <p>Each Frenchie Purchased</p>
+                  <p>Helps a dog in need.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            {{ $hero2 := resources.Get "img/hero-2.jpg" }}
+            <div class="background-img" style="background-image:url('{{ $hero2.Permalink }}');">
+              <div class="overlay">
+                <div class="hero-contact">
+                  <h2>Highest Health Standards</h2>
+                  <p>Read our Real Life Facebook Reviews</p>
+                  <p>From real people.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            {{ $hero3 := resources.Get "img/hero-3.jpg" }}
+            <div class="background-img" style="background-image:url('{{ $hero3.Permalink }}');">
+              <div class="overlay">
+                <div class="hero-contact">
+                  <h2>HeadStart Training</h2>
+                  <p>We organically cater your future Frenchie's personality</p>
+                  <p>To match your families needs.</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <nav class="cta-social">
+        {{ with .Site.Params.social }}
+        <a href="https://www.facebook.com/{{.}}" class="social-icon facebook">
+          {{ $facebok := resources.Get "img/facebook.svg" | minify }}
+          <img src="{{ $facebok.Permalink }}" alt="Connect with us on Facebook">
+        </a>
+        <a href="https://www.instagram.com/{{.}}" class="social-icon instagram">
+          {{ $instagram := resources.Get "img/instagram.svg" | minify }}
+          <img src="{{ $instagram.Permalink }}" alt="Connect with us on Facebook">
+        </a>
+        {{ end }}
+        <a href="tel:+18002057859" class="social-icon tel">
+          {{ $phone := resources.Get "img/phone.svg" | minify }}
+          <img src="{{ $phone.Permalink }}" alt="Connect with us on Facebook">
+        </a>
+      </nav>
+    </section>
   </main>
   {{ partial "footer.html" . }}
 {{ end }}

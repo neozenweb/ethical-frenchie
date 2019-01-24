@@ -81,5 +81,16 @@
       class_error: "error"
     });
   </script>
+  {{ if .IsHome }}
+    {{ $swiper := resources.Get "js/swiper.js" | minify }}
+    <script src="{{ $swiper.Permalink }}"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        autoplay: {
+          delay: 5000,
+        }
+      });
+    </script>
+  {{ end }}
 </body>
 </html>

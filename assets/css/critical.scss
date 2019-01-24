@@ -57,5 +57,140 @@ body {
   }
   main {
     margin: 55px 0 0;
+    padding: 0;
+    section.hero-slideshow {
+      @extend %full-width;
+      height: 885px;
+      @include media-query-max($dsk) {
+        height: 765px;
+      }
+      @include media-query-max($tbl) {
+        height: 585px;
+      }
+      @include media-query-max($phn-lg) {
+        height: 345px;
+      }
+      @include media-query-max($phn-sm) {
+        height: 265px;
+      }
+      div.swiper-container {
+        @extend %relative;
+        box-shadow: 0 5px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+        overflow: hidden;
+        z-index: 1;
+        ul.swiper-wrapper {
+          @extend %flex;
+          @extend %full-width;
+          @extend %relative;
+          box-sizing: content-box;
+          margin: 0;
+          padding: 0;
+          transition-property: transform;
+          z-index: 1;
+          li.swiper-slide {
+            @extend %full-width;
+            @extend %relative;
+            flex-shrink: 0;
+            list-style: none;
+            margin: 0;
+            pointer-events: none;
+            transition-property: opacity;
+            div.background-img {
+              @extend %full-width;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 885px;
+              @include media-query-max($dsk) {
+                height: 765px;
+              }
+              @include media-query-max($tbl) {
+                height: 585px;
+              }
+              @include media-query-max($phn-lg) {
+                height: 345px;
+              }
+              @include media-query-max($phn-sm) {
+                height: 265px;
+              }
+              div.overlay {
+                @extend %content-center;
+                @extend %flex;
+                @extend %full-width;
+                @extend %items-flex-end;
+                @extend %relative;
+                background: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 20%,rgba(0,0,0,0.1) 40%,rgba(0,0,0,0.7) 70%,rgba(0,0,0,1) 100%);
+                height: 885px;
+                @include media-query-max($dsk) {
+                  height: 765px;
+                }
+                @include media-query-max($tbl) {
+                  height: 585px;
+                }
+                @include media-query-max($phn-lg) {
+                  height: 345px;
+                }
+                @include media-query-max($phn-sm) {
+                  height: 265px;
+                }
+                div.hero-contact {
+                  @extend %absolute;
+                  @extend %content-center;
+                  @extend %flex;
+                  @extend %flex-column;
+                  @extend %items-center;
+                  margin: 0 0 20px;
+                  bottom: 0;
+                  z-index: 20;
+                  > * {
+                    color: $background;
+                  }
+                  h2  {
+                    font-size: 21px;
+                    font-weight: bold;
+                    margin: 0 0 5px;
+                  }
+                  p {
+                    font-size: 13px;
+                    margin: 0 0 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      nav.cta-social {
+        @extend %content-space-around;
+        @extend %flex;
+        @extend %items-center;
+        @extend %relative;
+        margin: -20px auto 0;
+        width: 190px;
+        z-index: 20;
+        a {
+          @extend %content-center;
+          @extend %flex;
+          @extend %items-center;
+          border-radius: 6px;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
+          height: 40px;
+          width: 40px;
+          &.facebook {
+            background-color: #3B5998;
+          }
+          &.instagram {
+            background-color: #E1306C;
+          }
+          &.tel {
+            background-color: #8CC152;
+          }
+          img {
+            height: 15px;
+            widows: 15px;
+          }
+        }
+      }
+    }
   }
 }
