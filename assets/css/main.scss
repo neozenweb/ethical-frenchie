@@ -93,6 +93,99 @@ main {
       }
     }
   }
+  section.testimonials {
+    @extend %full-width;
+    padding: 0 15px;
+    div.inner {
+      @extend %content-center;
+      @extend %flex;
+      @extend %flex-column;
+      @extend %items-center;
+      background: rgb(0,0,0);
+      border-radius: 15px;
+      box-shadow: $box-lg;
+      min-height: 400px;
+      padding: 15px;
+      > * {
+        color: $background;
+      }
+      h2 {
+        margin: 0 0 5px;
+      }
+      p.subtext {
+        font-size: 12px;
+        margin: 0 0 20px;
+        opacity: 0.7;
+      }
+      div.stars {
+        @extend %content-space-between;
+        @extend %flex;
+        @extend %items-center;
+        margin-bottom: 20px;
+        width: 125px;
+        img {
+          height: 20px;
+          width: 20px;
+        }
+      }
+      div.clients {
+        @extend %full-width;
+        @extend %relative;
+        overflow: hidden;
+        z-index: 1;
+        ul.swiper-wrapper {
+          @extend %flex;
+          @extend %full-width;
+          @extend %relative;
+          box-sizing: content-box;
+          margin: 0;
+          padding: 0;
+          transition-property: transform;
+          z-index: 1;
+          li.carousel {
+            @extend %content-center;
+            @extend %flex;
+            @extend %flex-column;
+            @extend %full-width;
+            @extend %items-center;
+            @extend %relative;
+            flex-shrink: 0;
+            list-style: none;
+            margin: 0 0 30px;
+            pointer-events: none;
+            transition-property: opacity;
+            p {
+              font-size: 18px;
+              line-height: 28px;
+              margin: 0 0 10px;
+              text-align: center;
+              &.verified {
+                @extend %content-center;
+                @extend %flex;
+                @extend %flex-wrap;
+                @extend %items-center;
+                img {
+                  display: inline-block;
+                  height: 18px;
+                  margin-right: 5px;
+                  width: 18px;
+                }
+                span {
+                  display: inline-block;
+                  color: #4A89DC;
+                  font-weight: 300;
+                  margin-left: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+      a#button {
+        margin-bottom: 15px;
+      }
+    }
+  }
 }
 footer {
   @extend %content-center;

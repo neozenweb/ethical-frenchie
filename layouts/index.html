@@ -94,6 +94,53 @@
       </div>
     </section>
     <div class="divider"></div>
+    <section class="testimonials">
+      <div class="inner">
+        <h2>Happy Adopters!</h2>
+        <p class="subtext">What sets us apart? The amount of time we dedicate to you.</p>
+        <div class="stars">
+          {{ $star := resources.Get "img/star.svg" | minify }}
+          <img src="{{ $star.Permalink }}">
+          <img src="{{ $star.Permalink }}">
+          <img src="{{ $star.Permalink }}">
+          <img src="{{ $star.Permalink }}">
+          <img src="{{ $star.Permalink }}">
+        </div>
+        <div class="swiper-container clients">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide carousel">
+              <p>The adoption process was smooth. We got to meet the mom of our puppy as well as other puppies from the litter. They were excited to see us and very loving and socialized. Don’t hesitate to get a pup from Ethical Frenchie.</p>
+              <p class="verified">
+                {{ $verified := resources.Get "img/verified.svg" | minify }}
+                <img src="{{ $verified.Permalink }}">
+                Verified Customer
+                <span>via Facebook</span>
+              </p>
+            </li>
+            <li class="swiper-slide carousel">
+              <p>I’m a vet and I personally inspected the pup before taking him home. They are raised in a great home and beyond spoiled.</p>
+              <p class="verified">
+                {{ $verified := resources.Get "img/verified.svg" | minify }}
+                <img src="{{ $verified.Permalink }}">
+                Verified Customer
+                <span>via Facebook</span>
+              </p>
+            </li>
+            <li class="swiper-slide carousel">
+              <p>Our girl is was a great addition to our home. When we got her she was a tiny girl with a huge attitude. Very well socialized and loving. The adoption process was smooth and they met us halfway in Virginia. If you have a chance to get a french bulldog from them, go for it.</p>
+              <p class="verified">
+                {{ $verified := resources.Get "img/verified.svg" | minify }}
+                <img src="{{ $verified.Permalink }}">
+                Verified Customer
+                <span>via Facebook</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <a href="{{ .Site.BaseURL }}testimonials" id="button" class="button-lg">More Testimonials</a>
+      </div>
+    </section>
+    <div class="divider"></div>
   </main>
   {{ partial "footer.html" . }}
 {{ end }}
