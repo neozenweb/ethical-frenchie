@@ -54,6 +54,45 @@ main {
       margin-bottom: 30px;
     }
   }
+  section.gaurantees {
+    @extend %content-center;
+    @extend %flex;
+    @extend %flex-column;
+    @extend %full-width;
+    @extend %items-flex-start;
+    div.item {
+      @extend %content-flex-start;
+      @extend %flex;
+      @extend %full-width;
+      @extend %items-center;
+      height: auto;
+      margin-bottom: 30px;
+      min-height: 80px;
+      padding-right: 30px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      img {
+        height: 40px;
+        margin: 0 30px;
+        width: 40px;
+      }
+      div {
+        @extend %content-space-between;
+        @extend %flex;
+        @extend %flex-column;
+        @extend %items-flex-start;
+        h3 {
+          line-height: 30px;
+          margin: 0;
+        }
+        p {
+          font-size: 13px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
 }
 footer {
   @extend %content-center;

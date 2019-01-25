@@ -67,6 +67,33 @@
       <a href="{{ .Site.BaseURL }}puppies" id="button" class="button-lg">View Our Puppies!</a>
     </section>
     <div class="divider"></div>
+    <section class="gaurantees">
+      <div class="item">
+        {{ $healthy := resources.Get "img/healthy.svg" | minify }}
+        <img src="{{ $healthy.Permalink }}" alt="Medical briefcase.">
+        <div>
+          <h3>Healthy Frenchie Gaurantee</h3>
+          <p class="meta">Learn more about our Healthy Frenchie Gaurantee including the extent to which we go out of our way for our babies.</p>
+        </div>
+      </div>
+      <div class="item">
+        {{ $socialization := resources.Get "img/socialization.svg" | minify }}
+        <img src="{{ $socialization.Permalink }}" alt="Academic cap.">
+        <div>
+          <h3>Early Puppy Socialization</h3>
+          <p class="meta">Socializing our puppies as early as possible makes the transition to its "Furever Home" go that much more smoothly.</p>
+        </div>
+      </div>
+      <div class="item">
+        {{ $buy := resources.Get "img/buy.svg" | minify }}
+        <img src="{{ $buy.Permalink }}" alt="Hearth icon.">
+        <div>
+          <h3>Buy a Frenchie = Save an Animal</h3>
+          <p class="meta">Since we donate to local shelters, You can rest comfortably knowing that your purchase of a french bulldog puppy sparked a true butterfly effect.</p>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
   </main>
   {{ partial "footer.html" . }}
 {{ end }}
