@@ -61,7 +61,7 @@
         </a>
       </nav>
     </section>
-    <section class="puppies">
+    <section class="breeding">
       <h2>Breeding with Love</h2>
       <p class="meta">We're Humans who love French Bulldogs. While we realize that adopting should always be the first choice, We understand that sometimes you just want to raise your own baby from day 1. As a small Mom & Pop French Bulldog Puppy Breeder, We ensure that every frenchie purchased from us contributes directly to helping neglected and abandoned pets.</p>
       <a href="{{ .Site.BaseURL }}puppies" id="button" class="button-lg">View Our Puppies!</a>
@@ -106,7 +106,7 @@
           <img src="{{ $star.Permalink }}">
           <img src="{{ $star.Permalink }}">
         </div>
-        <div class="swiper-container clients">
+        <div class="swiper-container customers">
           <ul class="swiper-wrapper">
             <li class="swiper-slide carousel">
               <p>The adoption process was smooth. We got to meet the mom of our puppy as well as other puppies from the litter. They were excited to see us and very loving and socialized. Don’t hesitate to get a pup from Ethical Frenchie.</p>
@@ -138,6 +138,35 @@
           </ul>
         </div>
         <a href="{{ .Site.BaseURL }}testimonials" id="button" class="button-lg">More Testimonials</a>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <section class="puppies">
+      <h2>Our Puppies</h2>
+      <p class="meta">These are our most powerful, easy to use, feature filled and fast loading products of them all.</p>
+      <div class="swiper-container feat-puppies">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide pairs">
+            {{ range $i, $top := .Site.Data.puppies.top }}
+            {{ $file := replaceRE " " "-" (index $.Site.Data.puppies.top $i | lower) }}
+            {{ $img := resources.Get (print "img/" $file ".jpg") }}
+            <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
+              <h3>{{ $top }}</h3>
+              <a href="{{ $.Site.BaseURL }}services/{{ $file }}" id="button" class="button-lg">Learn More</a>
+            </div>
+            {{ end }}
+          </li>
+          <li class="swiper-slide pairs">
+            {{ range $i, $bottom := .Site.Data.puppies.bottom }}
+            {{ $file := replaceRE " " "-" (index $.Site.Data.puppies.bottom $i | lower) }}
+            {{ $img := resources.Get (print "img/" $file ".jpg") }}
+            <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
+              <h3>{{ $bottom }}</h3>
+              <a href="{{ $.Site.BaseURL }}services/{{ $file }}" id="button" class="button-lg">Learn More</a>
+            </div>
+            {{ end }}
+          </li>
+        </ul>
       </div>
     </section>
     <div class="divider"></div>

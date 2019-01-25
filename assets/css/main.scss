@@ -33,7 +33,7 @@ div.divider {
   margin: 30px 15px;
 }
 main {
-  section.puppies {
+  section.breeding {
     @extend %content-center;
     @extend %flex;
     @extend %flex-column;
@@ -108,6 +108,7 @@ main {
       padding: 15px;
       > * {
         color: $background;
+        text-align: center;
       }
       h2 {
         margin: 0 0 5px;
@@ -128,32 +129,15 @@ main {
           width: 20px;
         }
       }
-      div.clients {
+      div.customers {
         @extend %full-width;
-        @extend %relative;
-        overflow: hidden;
-        z-index: 1;
         ul.swiper-wrapper {
-          @extend %flex;
-          @extend %full-width;
-          @extend %relative;
-          box-sizing: content-box;
-          margin: 0;
-          padding: 0;
-          transition-property: transform;
-          z-index: 1;
           li.carousel {
             @extend %content-center;
             @extend %flex;
             @extend %flex-column;
-            @extend %full-width;
             @extend %items-center;
-            @extend %relative;
-            flex-shrink: 0;
-            list-style: none;
             margin: 0 0 30px;
-            pointer-events: none;
-            transition-property: opacity;
             p {
               font-size: 18px;
               line-height: 28px;
@@ -183,6 +167,61 @@ main {
       }
       a#button {
         margin-bottom: 15px;
+      }
+    }
+  }
+  section.puppies {
+    @extend %content-center;
+    @extend %flex;
+    @extend %flex-column;
+    @extend %items-center;
+    padding: 0 15px;
+    h2 {
+      margin: 0 0 5px;
+    }
+    p {
+      @extend %full-width;
+      font-size: 13px;
+      line-height: 26px;
+      margin-bottom: 30px;
+      max-width: 340px;
+      text-align: center;
+    }
+    div.feat-puppies {
+      ul.swiper-wrapper {
+        li.pairs {
+          @extend %content-center;
+          @extend %flex;
+          @extend %items-center;
+          margin-bottom: 40px;
+          width: 100% !important;
+          div.pup-item {
+            @extend %content-flex-end;
+            @extend %flex;
+            @extend %flex-column;
+            @extend %items-center;
+            @extend %relative;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 15px;
+            box-shadow: $box-lg;
+            height: calc(90vw - 100px);
+            margin: 0 10px;
+            max-height: 915px;
+            min-height: 220px;
+            width: calc(50vw - 20px);
+            h3 {
+              color: $background;
+              margin: 0 0 40px;
+            }
+            a#button {
+              @extend %absolute;
+              bottom: -20px;
+              z-index: 20px;
+            }
+          }
+        }
       }
     }
   }

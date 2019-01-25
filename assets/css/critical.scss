@@ -39,7 +39,7 @@ body {
     left: 0;
     right: 0;
     top: 0;
-    z-index: 20;
+    z-index: 30;
   }
   main {
     margin: 55px 0 0;
@@ -61,27 +61,9 @@ body {
         height: 265px;
       }
       div.swiper-container {
-        @extend %relative;
         box-shadow: $box-lg;
-        overflow: hidden;
-        z-index: 1;
         ul.swiper-wrapper {
-          @extend %flex;
-          @extend %full-width;
-          @extend %relative;
-          box-sizing: content-box;
-          margin: 0;
-          padding: 0;
-          transition-property: transform;
-          z-index: 1;
           li.swiper-slide {
-            @extend %full-width;
-            @extend %relative;
-            flex-shrink: 0;
-            list-style: none;
-            margin: 0;
-            pointer-events: none;
-            transition-property: opacity;
             div.background-img {
               @extend %full-width;
               background-position: center center;
@@ -165,6 +147,30 @@ body {
     span {
       color: $main;
       margin: 0;
+    }
+  }
+  div.swiper-container {
+    @extend %relative;
+    overflow: hidden;
+    z-index: 1;
+    ul.swiper-wrapper {
+      @extend %flex;
+      @extend %full-width;
+      @extend %relative;
+      box-sizing: content-box;
+      margin: 0;
+      padding: 0;
+      transition-property: transform;
+      z-index: 1;
+      li.swiper-slide {
+        @extend %full-width;
+        @extend %relative;
+        flex-shrink: 0;
+        list-style: none;
+        margin: 0;
+        pointer-events: none;
+        transition-property: opacity;
+      }
     }
   }
   nav.cta-social {
