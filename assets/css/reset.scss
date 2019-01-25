@@ -80,22 +80,20 @@ header {
   text-transform: uppercase;
 }
 header,
-h1, h2, h3, h4 {
-  font-weight: 600;
+h1, h2, h3 {
+  font: 'Ubuntu', sans-serif;
+  font-weight: bold;
 }
 h1 {
-  font-size: 36px;
-}
-h2 {
-  font-size: 32px;
-}
-h3 {
   font-size: 28px;
 }
-h4 {
+h2 {
   font-size: 24px;
 }
-h2, h3, h4 {
+h3 {
+  font-size: 18px;
+}
+h2, h3 {
   margin-top: 10px;
 }
 img,
