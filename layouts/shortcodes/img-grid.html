@@ -1,0 +1,7 @@
+{{ $alt := ($.Get 0) }}
+{{- range (seq 1 (sub (len .Params) 1) ) }}
+  {{ $gridItem := resources.Get (print "img/" ($.Get .)) }}
+  <figure class="img-grid">
+    <img data-src="{{ printf `%s` $gridItem.Permalink }}" alt="{{ $alt }}" class="lazy"/>
+  </figure>
+{{- end }}

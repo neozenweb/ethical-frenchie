@@ -8,7 +8,7 @@
         <ul class="swiper-wrapper">
           {{ range $i, $images := .Site.Data.hero.images }}
           <li class="swiper-slide">
-            {{ $hero := resources.Get (print "img/" $images) }}
+            {{ $hero := resources.Get (print "img/hero/" $images) }}
             <div class="background-img" style="background-image:url('{{ $hero.Permalink }}');">
               <div class="overlay">
                 <div class="hero-contact">
@@ -111,7 +111,7 @@
           <li class="swiper-slide pairs">
             {{ range $i, $top := .Site.Data.puppies.top }}
             {{ $file := replaceRE " " "-" (index $.Site.Data.puppies.top $i | lower) }}
-            {{ $img := resources.Get (print "img/" $file ".jpg") }}
+            {{ $img := resources.Get (print "img/puppies/" $file ".jpg") }}
             <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
               <h3>{{ $top }}</h3>
               <a href="{{ $.Site.BaseURL }}services/{{ $file }}" id="button" class="button-lg">Learn More</a>
@@ -121,7 +121,7 @@
           <li class="swiper-slide pairs">
             {{ range $i, $bottom := .Site.Data.puppies.bottom }}
             {{ $file := replaceRE " " "-" (index $.Site.Data.puppies.bottom $i | lower) }}
-            {{ $img := resources.Get (print "img/" $file ".jpg") }}
+            {{ $img := resources.Get (print "img/puppies/" $file ".jpg") }}
             <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
               <h3>{{ $bottom }}</h3>
               <a href="{{ $.Site.BaseURL }}services/{{ $file }}" id="button" class="button-lg">Learn More</a>
