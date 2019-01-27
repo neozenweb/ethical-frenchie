@@ -1,0 +1,2 @@
+{{ $img := resources.Get (print "img/" (.Get "src")) }}
+<img data-src="{{ $img.Permalink }}" {{ with .Get "alt"}}alt="{{.}}"{{ end }} class="lazy img-inline"/>
