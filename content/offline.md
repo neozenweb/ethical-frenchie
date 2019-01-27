@@ -4,7 +4,7 @@ title = "Offline"
 
 It looks like you're offline right now.
 
-No worries; much of my site is available regardless of network connection.
+No worries; much of the site is available regardless of network connection.
 
 - [Home](/)
 - [Blog](/blog/)
