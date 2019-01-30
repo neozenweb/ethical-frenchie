@@ -25,17 +25,11 @@
   &.button-lg {
     width: 60%;
   }
-}
-#round {
-  @extend %content-center;
-  @extend %flex;
-  @extend %items-center;
-  @extend %no-decoration;
-  background-color: $main;
-  border-radius: 50%;
-  cursor: pointer;
-  height: 35px;
-  width: 35px;
+  &.round {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+  }
 }
 div.divider {
   @extend %full-width;
@@ -286,7 +280,7 @@ main {
           font-style: italic;
         }
       }
-      a#round {
+      a#button.round {
         @extend %absolute;
         bottom: 15px;
         right: 15px;
@@ -294,6 +288,95 @@ main {
           fill: $background;
           height: 13px;
           width: 13px;
+        }
+      }
+    }
+  }
+  &.single {
+    article.post {
+      padding: 15px;
+      figure {
+        @extend %flex;
+        border-radius: 15px;
+        overflow: hidden;
+        @extend %relative;
+      }
+      figure.hero-wrap {
+        @extend %content-flex-end;
+        @extend %flex-column;
+        @extend %items-flex-start;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        padding: 15px;
+        div.overlay {
+          @extend %absolute;
+          @extend %full-width;
+          background-color: rgba(0,0,0,0.5);
+          bottom: 0;
+          height: 200px;
+          left: 0;
+          right: 0;
+          top: 0;
+          z-index: 1;
+        }
+        > section {
+          bottom: 15px;
+          left: 15px;
+          z-index: 5;
+        }
+        section.heading {
+          @extend %content-center;
+          @extend %flex;
+          @extend %flex-column;
+          @extend %items-flex-start;
+          h1.title,
+          h2.description {
+            color: $background;
+            margin: 0 0 10px;
+          }
+          h1.title {
+            font-size: 22px;
+          }
+          h2.description {
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 26px;
+          }
+        }
+        section.details {
+          @extend %content-space-between;
+          @extend %flex;
+          @extend %full-width;
+          @extend %items-center;
+          * {
+            color: $background;
+            font-size: 10px;
+          }
+        }
+        a:hover {
+          color: $main;
+        }
+      }
+      section.content {
+        margin: 30px 0;
+        h2, h3, h4 {
+          margin: 5px 0 10px;
+        }
+        p, li {
+          font-size: 14px;
+          line-height: 26px;
+          margin: 0 0 10px;
+        }
+        figure {
+          height: 400px;
+          margin: 15px 0;
+          img {
+            @extend %relative;
+            object-fit: cover;
+            object-position: center center;
+          }
         }
       }
     }

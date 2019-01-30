@@ -44,14 +44,21 @@ At that point it’s time to take her in for a C-section, or if you are free-whe
 - **Lots of blankets.** You will be switching blankets several times per day. You have to keep the whelping box clean at all times.
 - **Baby wipes.** There will be a lot of mess. Use gentle baby wipes to clean the pups up.
 
-{{< img-grid "Whelping 101 Kit" "blog/french-bulldog-whelping-101_2.jpg" "blog/french-bulldog-whelping-101_3.jpg" >}}
+{{< img src="blog/french-bulldog-whelping-101_2.jpg" alt="Whelping 101 Kit" >}}
+
+{{< img src="blog/french-bulldog-whelping-101_3.jpg" alt="Whelping 101 Kit" >}}
 
 ## Week 1
 1. **Weight the puppies and take their temperature daily.** Make sure it doesn’t drop below 97 degrees. They can’t regulate their temperature and getting cold can result in death.
 2. **Feed them every 2 hours.** It would be helpful if you have someone to assist you, or you will end up being a walking zombie. Puppies need to be fed every 2 hours for the first 10 days of their life.
 3. **Make sure they are all pooping and peeing.** They can’t do it on their own so the mom will stimulate them by licking. If she refuses to do it, you will have to jump in. Take a warm cloth and massage the area under their anus until they start urinating/defecating.
 
-{{< img-grid "Make sure they are all pooping and peeing." "blog/french-bulldog-whelping-101_4.jpg" "blog/french-bulldog-whelping-101_5.jpg" "blog/french-bulldog-whelping-101_6.jpg" >}}
+{{< img src="blog/french-bulldog-whelping-101_4.jpg" alt="Make sure they are all pooping and peeing." >}}
+
+{{< img src="blog/french-bulldog-whelping-101_5.jpg" alt="Make sure they are all pooping and peeing." >}}
+
+{{< img src="blog/french-bulldog-whelping-101_6.jpg" alt="Make sure they are all pooping and peeing." >}}
+
 
 4. **It’s important to make sure they are pooping and don’t get bloated.** The pressure from the bloat can damage their internal organs. If you see a puppy that is fussy, looks bloated and isn’t pooping after every meal chances are the pup is constipated. But don’t freak out. Take a syringe with 5ml of luke warm distilled water and **slowly** squirt it up their anus. Wait 30 seconds and start massaging with a warm cloth until they poop.
 5. **If you are supplementing them don’t over feed.** Follow the instruction on the puppy formula.

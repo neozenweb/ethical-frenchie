@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <main class="single">
+    <article class="post">
+      {{ $img := resources.Get (print "img/blog/" (.Params.image)) }}
+      <figure href="{{ .Permalink }}" class="hero-wrap" style="background-image: url('{{ $img.Permalink }}')">
+        <div class="overlay"></div>
+        <section class="heading">
+          <h1 class="title">{{ .Title }}</h1>
+          {{ with .Params.description }}<h2 class="description">{{ . }}</h2>{{ end }}
+        </section>
+        {{ $s := .Section }}
+        <section class="details">
+          <p class="tag meta">
+            <span>In: </span>
+            {{ range $key, $cat := .Params.category }}
+              {{- if ne $key 0 }}<span>, </span>{{ end }}
+              <a class="meta" href="/{{ $s }}/category/{{ $cat }}">{{ $cat }}</a>
+            {{ end }}
+          </p>
+          <p class="author meta">By: {{ .Site.Author.name }}</p>
+          <time class="date meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </section>
+      </figure>
+      <section class="content">
+        <p>{{ .Content }}</p>
+      </section>
+    </article>
+  </main>
+  {{ partial "footer.html" . }}
+{{ end }}

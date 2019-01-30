@@ -13,7 +13,9 @@ It’s something we hear too often these days. Unfortunately people don’t unde
 Another common question is **"How much does French Bulldog cost"**? Some breeders have **inexpensive French Bulldog puppies for sale**. Is that good or bad? We will answer all this and more in the content below, so stay with us.
 
 ## The cost of Breeding a French bulldog
-{{< img-inline src="blog/cheap-french-bulldog-puppies-under-500_1.jpg" alt="Cost of Breeding a French bulldog" >}} Before you decide to breed it’s important to clear your dog of any unwanted, genetic disorders.
+{{< img src="blog/cheap-french-bulldog-puppies-under-500_1.jpg" alt="Cost of Breeding a French bulldog" >}}
+
+Before you decide to breed it’s important to clear your dog of any unwanted, genetic disorders.
 
 If you don’t own both a male and a female, a stud fee is required. The better quality the male (good structure, no genetic issues) the more expensive the stud fee.
 
@@ -32,7 +34,9 @@ The prices of French Bulldogs vary, but let’s say the typical price for a stan
 
 You will pay much more for "rare" colors and variations, such as **blue, chocolate, black and tan or lilac French Bulldogs**. The price will also go up if you your dog is from a "champion blood line" or has a genetic mutation that makes him "fluffy". The fluffy Frenchie is very rare and goes for as much as $15000 and more.
 
-{{< img-grid "Blue, chocolate, black and tan or lilac French Bulldogs" "blog/cheap-french-bulldog-puppies-under-500_3.jpg" "blog/cheap-french-bulldog-puppies-under-500_4.jpg" >}}
+{{< img src="blog/cheap-french-bulldog-puppies-under-500_3.jpg" alt="Blue, chocolate, black and tan or lilac French Bulldogs" >}}
+
+{{< img src="blog/cheap-french-bulldog-puppies-under-500_4.jpg" alt="Blue, chocolate, black and tan or lilac French Bulldogs" >}}
 
 As you see there are many things that affect **how much does French Bulldog cost**. But if you are at the end of the day looking for a Frenchie companion because of their amusing, loving qualities, the color doesn’t play a role.
 

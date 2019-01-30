@@ -40,7 +40,11 @@ Now let’s just skip to supplies and grooming tips…
 8. **Gentle puppy shampoo, hair comb and nail trimmer.**
 9. Not really a supply but think about invest into a **doggy insurance plan**.
 
-{{< img-grid "Basic French Bulldog Supplies" "blog/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_4.jpg" "blog/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_5.jpg" "blog/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_6.jpg" >}}
+{{< img src="blog/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_4.jpg" alt="Basic French Bulldog Supplies" >}}
+
+{{< img src="blog/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_5.jpg" alt="Basic French Bulldog Supplies" >}}
+
+{{< img src="blog/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_6.jpg" alt="Basic French Bulldog Supplies" >}}
 
 ## What to Know When Buying a French Bulldog – Spoiled Puppy Edition, because having a Frenchie is just like having another kid
 1. The famous paw soother and snout soother from {{< link href="https://naturaldogcompany.com/" content="The Natural Dog" >}} company.
