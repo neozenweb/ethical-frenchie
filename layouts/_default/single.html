@@ -1,16 +1,69 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
-  <main class="list">
-    <article class="post">
-      <h1 class="title">{{ .Title }}</h1>
-      {{ if .Params.showthedate }}
-      <section class="meta">
-        <time class="date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-        <p class="author">by {{ .Params.author }}</p>
+  <main class="separate{{ if eq .Title "About Us" }} about{{ end }}">
+    {{ if eq .Title "About Us" }}
+      <section class="heading">
+        {{ $logo := resources.Get "img/logo.png" }}
+        <img src="{{ $logo.Permalink }}" alt="{{ .Site.Title }}" class="logo">
+        <h1>{{ .Site.Title }}</h1>
+        <p>The most Exclusive yet Accessible Frenchie breeder on the East Coast</p>
       </section>
-      {{ end }}
-      <section class="content">{{ .Content }}</section>
-    </article>
+      <div class="divider"></div>
+      <section class="content">
+        <h2 class="title">{{ .Title }}</h2>
+        <p>{{ .Content }}</p>
+      </section>
+      <div class="divider"></div>
+      <section class="gaurantees">
+        <div class="item">
+          <div>
+            <h3>Healthy Puppy Gaurantee</h3>
+            <p class="meta">Each of our puppies have regular checkups and come with a clean bill of health. We were extremely selective before listing our french bulldog puppies for sale by genetically testing our mommies and daddies (or "doners") ensure poor genes aren't passed on.</p>
+          </div>
+          {{ $healthy := resources.Get "img/healthy.svg" | minify }}
+          <img src="{{ $healthy.Permalink }}" alt="Medical briefcase.">
+        </div>
+        <div class="item">
+          <div>
+            <h3>Early Socialization</h3>
+            <p class="meta">We believe it's never to start socializing our french bulldog puppies while training them with positive reinforcement to ensure the smothest transition to your unique household.</p>
+          </div>
+          {{ $socialization := resources.Get "img/socialization.svg" | minify }}
+          <img src="{{ $socialization.Permalink }}" alt="Academic cap.">
+        </div>
+        <div class="item">
+          <div>
+            <h3>Buy a Puppy = Save a Puppy</h3>
+            <p class="meta">Every time one of our french bulldog puppies are purchased, we donate a large percentage to animal shelters, extending and saving the lives of abandoned older dogs.</p>
+          </div>
+          {{ $buy := resources.Get "img/buy.svg" | minify }}
+          <img src="{{ $buy.Permalink }}" alt="Hearth icon.">
+        </div>
+        <div class="stats">
+          <h2>30.000+</h2>
+          <p class="sub-text">Happy Customers</p>
+          <p class="meta">We've served over 30.000 Customers. We're delighted to see happy customers!</p>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section class="numbers">
+        <div class="stats">
+          <h2>100+</h2>
+          <p class="sub-text">Puppies</p>
+          <p class="meta">We have over 100 FRENCHIE
+              items in our portfolio.</p>
+        </div>
+        <div class="stats">
+          <h2>70+</h2>
+          <p class="sub-text">Frenchies</p>
+          <p class="meta">We have over 70 FRENCHIE
+              items in our portfolio.</p>
+        </div>
+      </section>
+      <div class="divider"></div>
+      {{ partial "testimonials.html" . }}
+      <div class="divider"></div>
+    {{ end }}
   </main>
   {{ partial "footer.html" . }}
 {{ end }}

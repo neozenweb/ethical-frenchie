@@ -72,36 +72,7 @@
       </div>
     </section>
     <div class="divider"></div>
-    <section class="testimonials">
-      <div class="inner">
-        <h2>Happy Adopters!</h2>
-        <p class="subtext">What sets us apart? The amount of time we dedicate to you.</p>
-        <div class="stars">
-          {{ $star := resources.Get "img/star.svg" | minify }}
-          <img src="{{ $star.Permalink }}">
-          <img src="{{ $star.Permalink }}">
-          <img src="{{ $star.Permalink }}">
-          <img src="{{ $star.Permalink }}">
-          <img src="{{ $star.Permalink }}">
-        </div>
-        <div class="swiper-container customers">
-          <ul class="swiper-wrapper">
-            {{ range $i, $customers := .Site.Data.testimonials.customers }}
-            <li class="swiper-slide carousel">
-              <p>{{ $customers }}</p>
-              <p class="verified">
-                {{ $verified := resources.Get "img/verified.svg" | minify }}
-                <img src="{{ $verified.Permalink }}">
-                Verified Customer
-                <span>via Facebook</span>
-              </p>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-        <a href="{{ .Site.BaseURL }}testimonials" id="button" class="button-lg">More Testimonials</a>
-      </div>
-    </section>
+    {{ partial "testimonials.html" . }}
     <div class="divider"></div>
     <section class="puppies">
       <h2>Our Puppies</h2>

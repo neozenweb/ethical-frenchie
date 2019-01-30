@@ -230,6 +230,97 @@ main {
       }
     }
   }
+  &.about {
+    section.heading {
+      @extend %content-center;
+      @extend %flex;
+      @extend %flex-column;
+      @extend %items-center;
+      margin: 90px 0 30px;
+      padding: 15px;
+      img.logo {
+        @extend %margin-center;
+        height: 120px;
+        width: 120px;
+      }
+      > * {
+        text-align: center;
+      }
+      h1 {
+        font: bold 30px 'Ubuntu', sans-serif;
+        line-height: 30px;
+        margin: 30px 0 5px;
+      }
+      p {
+        color: $main;
+        font-size: 13.5px;
+        line-height: 26px;
+        margin: 0;
+      }
+    }
+    section.content {
+      @extend %content-center;
+      @extend %flex;
+      @extend %flex-column;
+      @extend %items-center;
+      background-color: #a40d47;
+      border-radius: 15px;
+      margin: 30px;
+      min-height: 400px;
+      padding: 30px;
+      > * {
+        @extend %full-width;
+        color: $background;
+        max-width: 340px;
+        text-align: center;
+      }
+      h2 {
+        font: bold 26px 'Ubuntu', sans-serif;
+        margin: 0 0 10px;
+      }
+      p {
+        font-size: 13.5px;
+        line-height: 26px;
+        margin: 0 0 5px;
+        opacity: 0.8;
+      }
+    }
+    section.gaurantees {
+      div.item {
+        padding: 0 0 0 30px;
+      }
+    }
+    div.stats {
+      @extend %full-width;
+      @extend %margin-center;
+      max-width: 300px;
+      > * {
+        text-align: center;
+      }
+      h2 {
+        font: bold 40px 'Ubuntu', sans-serif;
+      }
+      p {
+        font-size: 13px;
+        line-height: 26px;
+        &.sub-text {
+          color: $main;
+          font-weight: bold;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+        }
+      }
+    }
+    section.numbers {
+      @extend %content-space-around;
+      @extend %flex;
+      @extend %flex-wrap;
+      @extend %items-center;
+      div.stats {
+        margin: 10px;
+      }
+    }
+  }
   &.list {
     article.post {
       @extend %relative;
