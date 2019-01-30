@@ -11,7 +11,7 @@
 Choose home made over store bought. You will know exactly what your French Bulldog Puppy is eating and avoid any stomach/allergy issues.
 
 ## 1. Peanut Butter Pumpkin Treats
-{{< img src="french-bulldog-home-made-treats_1.jpg" alt="Peanut Butter Pumpkin Treats" >}}
+{{< img src="blog/french-bulldog-home-made-treats_1.jpg" alt="Peanut Butter Pumpkin Treats" >}}
 
 ### Ingredients
 - 2 1/2 cups whole wheat flour
@@ -27,7 +27,7 @@ Choose home made over store bought. You will know exactly what your French Bulld
 3. Bake in preheated oven until hard, about 40 minutes.
 
 ## 2. DIY French Bulldog Puppy Breath Mints from {{< link href="https://skinnyms.com/" content="SkinnyMS" >}}
-{{< img src="french-bulldog-home-made-treats_2.jpg" alt="DIY French Bulldog Puppy Breath Mints from SkinnyMS" >}}
+{{< img src="blog/french-bulldog-home-made-treats_2.jpg" alt="DIY French Bulldog Puppy Breath Mints from SkinnyMS" >}}
 
 ### Ingredients
 - 2 1/2 cups old-fashioned oats,
@@ -45,7 +45,7 @@ Choose home made over store bought. You will know exactly what your French Bulld
 5. **Tip:** For dogs with allergies to chicken products, substitute one large egg with 1/4 cup unsweetened applesauce.
 
 ## 3. The No-Grainer (Grain Free) by {{< link href="https://lexiscleankitchen.com/" content="Lexy’s Clean Kitchen" >}}
-{{< img src="french-bulldog-home-made-treats_3.jpg" alt="The No-Grainer (Grain Free) by Lexy’s Clean Kitchen" >}}
+{{< img src="blog/french-bulldog-home-made-treats_3.jpg" alt="The No-Grainer (Grain Free) by Lexy’s Clean Kitchen" >}}
 
 ### Ingredients
 - 1 1/2 cup coconut flour
@@ -64,7 +64,7 @@ Choose home made over store bought. You will know exactly what your French Bulld
 7. Let cool completely before serving.
 
 ## 4. Healthy Blueberry Delights
-{{< img src="french-bulldog-home-made-treats_4.jpg" alt="Healthy Blueberry Delights" >}}
+{{< img src="blog/french-bulldog-home-made-treats_4.jpg" alt="Healthy Blueberry Delights" >}}
 
 ### Ingredients
 - 1/2 cup organic blueberries, chopped
@@ -80,7 +80,7 @@ Choose home made over store bought. You will know exactly what your French Bulld
 4. Your French Bulldog Puppy is going to love this one!
 
 ## 5. Plant Based Dog Snack 
-{{< img src="french-bulldog-home-made-treats_5.jpg" alt="Plant Based Dog Snack " >}}
+{{< img src="blog/french-bulldog-home-made-treats_5.jpg" alt="Plant Based Dog Snack " >}}
 
 ### Ingredients
 - 2 cups of shredded organic carrots

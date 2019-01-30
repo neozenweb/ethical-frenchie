@@ -14,7 +14,7 @@ Before you start breeding your **French Bulldog** you should educate yourself as
 ## Before Birth
 **French Bulldog** pregnancy lasts from **58-63 days**. You will be able to confirm the pregnancy with an ultra-sound after **30 days**. So make the appointment with your local vet as soon as possible. However you won’t be able to know how many puppies are in there until the **50th day** when the little bones mineralize (you will be able to confirm that with an X-ray). The price of the ultra sound and X-ray really depends from city to city.
 
-{{< img src="french-bulldog-whelping-101_1.jpg" alt="French Bulldog X-ray" >}}
+{{< img src="blog/french-bulldog-whelping-101_1.jpg" alt="French Bulldog X-ray" >}}
 
 Right after you confirmed your **French Bulldog** is pregnant, switch her to a high quality puppy food. Puppy food contains more nutrients than the adult food, which are crucial for the development of the babies. **By the 5th week she should be consuming 20-30% more food than pre-pregnancy.** Deworm your dam, so you prevent her from infecting the puppies at birth. Let your vet recommend a product that is safe for a pregnant dog.
 
@@ -44,14 +44,14 @@ At that point it’s time to take her in for a C-section, or if you are free-whe
 - **Lots of blankets.** You will be switching blankets several times per day. You have to keep the whelping box clean at all times.
 - **Baby wipes.** There will be a lot of mess. Use gentle baby wipes to clean the pups up.
 
-{{< img-grid "Whelping 101 Kit" "french-bulldog-whelping-101_2.jpg" "french-bulldog-whelping-101_3.jpg" >}}
+{{< img-grid "Whelping 101 Kit" "blog/french-bulldog-whelping-101_2.jpg" "blog/french-bulldog-whelping-101_3.jpg" >}}
 
 ## Week 1
 1. **Weight the puppies and take their temperature daily.** Make sure it doesn’t drop below 97 degrees. They can’t regulate their temperature and getting cold can result in death.
 2. **Feed them every 2 hours.** It would be helpful if you have someone to assist you, or you will end up being a walking zombie. Puppies need to be fed every 2 hours for the first 10 days of their life.
 3. **Make sure they are all pooping and peeing.** They can’t do it on their own so the mom will stimulate them by licking. If she refuses to do it, you will have to jump in. Take a warm cloth and massage the area under their anus until they start urinating/defecating.
 
-{{< img-grid "Make sure they are all pooping and peeing." "french-bulldog-whelping-101_4.jpg" "french-bulldog-whelping-101_5.jpg" "french-bulldog-whelping-101_6.jpg" >}}
+{{< img-grid "Make sure they are all pooping and peeing." "blog/french-bulldog-whelping-101_4.jpg" "blog/french-bulldog-whelping-101_5.jpg" "blog/french-bulldog-whelping-101_6.jpg" >}}
 
 4. **It’s important to make sure they are pooping and don’t get bloated.** The pressure from the bloat can damage their internal organs. If you see a puppy that is fussy, looks bloated and isn’t pooping after every meal chances are the pup is constipated. But don’t freak out. Take a syringe with 5ml of luke warm distilled water and **slowly** squirt it up their anus. Wait 30 seconds and start massaging with a warm cloth until they poop.
 5. **If you are supplementing them don’t over feed.** Follow the instruction on the puppy formula.
@@ -60,12 +60,12 @@ At that point it’s time to take her in for a C-section, or if you are free-whe
 
 Observe the mom, don’t forget she still has to follow the **increased food regime**, since she is producing milk for several puppies. You can start supplementing her with {{< link href="https://primalpetfoods.com/products/raw-goat-milk#variant=36507811666" content="Raw Goat milk" >}}, to increase calcium intake after birth.
 
-{{< img src="french-bulldog-whelping-101_7.jpg" alt="Raw Goat milk" >}}
+{{< img src="blog/french-bulldog-whelping-101_7.jpg" alt="Raw Goat milk" >}}
 
 ## Week 2
 **Puppies should be gaining weight daily.** They are regulating their own temperature and also slowly opening their eyes and ears. They will be reacting to sounds and will start recognizing their mom, siblings and yourself. **You will also notice they are testing their voice** by doing “scary” growls, barks and whines. Don’t expose them to flash or a very bright light, since their eyes are technically still developing and very sensitive. **Start trimming puppy nails.** I just use human trimmers at that point, since the nails are soft and tiny. It’s important to trim them regularly so they don’t make the dam **uncomfortable while nursing**. I swear puppy nails are murder weapons.
 
-You may not be aware but **almost all puppies are born with some kind of worms**, usually transmitted from their mother. At 2 weeks old it’s time to start the **deworming process**. Use something puppy friendly like {{< href="https://express.google.com/u/0/product/14392153889553951068_10345147429011970241_388047?utm_source=google_shopping&utm_medium=tu_cu&utm_content=eid-lsjeuxoeqt&gtim=CIuMkdq7h5ujfRCkzO_U2_WPr5YBGPDe4QQiA1VTRCigqpvhBTDP1xc&utm_campaign=388047&gclid=Cj0KCQiA3b3gBRDAARIsAL6D-N_HuzaxBBnJFr46W-ywm8fFGgXZ6q_1BXoeth_fsW38Pq5AulMayaEaAlOVEALw_wcB" content="Sentry HC Worm Liquid" >}}. It doesn’t taste good, so mix it in with puppy formula and feed with a syringe. Repeat the process every week until **12 weeks of age**.
+You may not be aware but **almost all puppies are born with some kind of worms**, usually transmitted from their mother. At 2 weeks old it’s time to start the **deworming process**. Use something puppy friendly like {{< link href="https://express.google.com/u/0/product/14392153889553951068_10345147429011970241_388047?utm_source=google_shopping&utm_medium=tu_cu&utm_content=eid-lsjeuxoeqt&gtim=CIuMkdq7h5ujfRCkzO_U2_WPr5YBGPDe4QQiA1VTRCigqpvhBTDP1xc&utm_campaign=388047&gclid=Cj0KCQiA3b3gBRDAARIsAL6D-N_HuzaxBBnJFr46W-ywm8fFGgXZ6q_1BXoeth_fsW38Pq5AulMayaEaAlOVEALw_wcB" content="Sentry HC Worm Liquid" >}}. It doesn’t taste good, so mix it in with puppy formula and feed with a syringe. Repeat the process every week until **12 weeks of age**.
 
 ## Week 3
 At week 3 your French Bulldog puppies will start **taking their first steps**. They will now be able to use their hearing and vision for exploration. **Make sure to remove any unwanted objects they could ingest or nibble on.** Around the 22nd day the “licking” reflex will start to appear, as well as will their first teeth. The nursing process is going to become more and more uncomfortable for the mother and that is where the next big step comes in.
