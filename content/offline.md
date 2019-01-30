@@ -1,5 +1,7 @@
 +++
 title = "Offline"
+draft = false
+showthedate = false
 +++
 
 It looks like you're offline right now.
