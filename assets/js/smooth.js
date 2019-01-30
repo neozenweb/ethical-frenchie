@@ -1,3 +1,4 @@
+// Smooth Scroll to Element
 function scrollPageTo(to) {
   var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;
 
@@ -5,14 +6,14 @@ function scrollPageTo(to) {
   //b = start value
   //c = change in value
   //d = duration
-  var easeInOutQuad = function easeInOutQuad(t, b, c, d) {
+  var easeInOutQuad = (t, b, c, d) => {
     t /= d / 2;
     if (t < 1) return c / 2 * t * t + b;
     t--;
     return -c / 2 * (t * (t - 2) - 1) + b;
   };
 
-  return new Promise(function (resolve, reject) {
+  return new Promise((resolve, reject) => {
     var element = document.scrollingElement;
 
     if (typeof to === 'string') {
@@ -27,7 +28,7 @@ function scrollPageTo(to) {
         currentTime = 0,
         increment = 20;
 
-    var animateScroll = function animateScroll() {
+    var animateScroll = () => {
       currentTime += increment;
       var val = easeInOutQuad(currentTime, start, change, duration);
       element.scrollTop = val;
