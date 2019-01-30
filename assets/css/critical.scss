@@ -210,4 +210,23 @@ body {
       }
     }
   }
+  #round {
+    @extend %absolute;
+    @extend %content-center;
+    @extend %flex;
+    @extend %items-center;
+    @extend %no-decoration;
+    background-color: $main;
+    border-radius: 50%;
+    bottom: 15px;
+    cursor: pointer;
+    height: 35px;
+    right: 15px;
+    width: 35px;
+    svg {
+      fill: $background;
+      height: 13px;
+      width: 13px;
+    }
+  }
 }

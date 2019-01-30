@@ -26,6 +26,17 @@
     width: 60%;
   }
 }
+#round {
+  @extend %content-center;
+  @extend %flex;
+  @extend %items-center;
+  @extend %no-decoration;
+  background-color: $main;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+}
 div.divider {
   @extend %full-width;
   background-color: rgba(0,0,0,0.06);
@@ -227,6 +238,7 @@ main {
   }
   &.list {
     article.post {
+      @extend %relative;
       padding: 0;
       a.img-wrap {
         max-height: 800px;
@@ -272,6 +284,16 @@ main {
         time.date {
           font-size: 11px;
           font-style: italic;
+        }
+      }
+      a#round {
+        @extend %absolute;
+        bottom: 15px;
+        right: 15px;
+        svg {
+          fill: $background;
+          height: 13px;
+          width: 13px;
         }
       }
     }
