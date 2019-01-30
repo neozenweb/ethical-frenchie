@@ -1,7 +1,7 @@
 +++
  title = "Frenchie Grooming Tips"
  date = "2019-01-02"
- tags = ["french bulldog care"]
+ category = ["french bulldog care"]
  image = "frenchie-grooming-tips_hero.jpg"
  description = "Tips and tricks on French Bulldog grooming. These little bat pigs are a sensitive dog breed, so go with natural products to avoid any skin irritation. Let's dig into..."
  draft = false

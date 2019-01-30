@@ -225,6 +225,57 @@ main {
       }
     }
   }
+  &.list {
+    article.post {
+      padding: 0;
+      a.img-wrap {
+        max-height: 800px;
+        img {
+          height: 100%;
+          max-height: 800px;
+        }
+      }
+      section.details {
+        padding: 15px;
+        > * {
+          margin: 0;
+        }
+        h2.title {
+          font-size: 17px;
+          line-height: 24px;
+          a {
+            @extend %no-decoration;
+          }
+        }
+        p.tag {
+          @extend %content-flex-start;
+          @extend %flex;
+          @extend %items-center;
+          font-size: 11px;
+          > span {
+            margin-right: 3px;
+          }
+          a {
+            color: $main;
+            text-decoration: underline;
+            text-transform: capitalize;
+          }
+        }
+        p.content {
+          font-size: 13px;
+          line-height: 26px;
+          margin-bottom: 20px;
+        }
+        p.author {
+          font-size: 12px;
+        }
+        time.date {
+          font-size: 11px;
+          font-style: italic;
+        }
+      }
+    }
+  }
 }
 footer {
   @extend %content-center;

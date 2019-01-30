@@ -1,7 +1,7 @@
 +++
  title = "Home Cooked Food For Your French Bulldog"
  date = "2019-01-09"
- tags = ["food", "health"]
+ category = ["food", "health"]
  image = "home-cooked-food-for-your-french-bulldog_hero.jpg"
  description = "Don’t get scared, it’s actually really simple!"
  draft = false

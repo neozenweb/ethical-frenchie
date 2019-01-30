@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <main class="list">
+    {{ $listFeed := .Paginate (where .Data.Pages "Section" "blog") 10 }}
+    {{ range $listFeed.Pages }}
+      {{ .Render "li"}}
+    {{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+{{ end }}

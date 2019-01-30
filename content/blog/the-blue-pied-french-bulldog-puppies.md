@@ -1,7 +1,7 @@
 +++
  title = "The Blue Pied French Bulldog Puppies"
  date = "2019-01-05"
- tags = ["french bulldog puppy for sale"]
+ category = ["french bulldog puppy for sale"]
  image = "the-blue-pied-french-bulldog-puppies_hero.jpg"
  description = "The first 2019 French Bulldog Puppies are almost ready. We didn’t post about them much and tried to keep it low key until they had their first extensive vet exam, but I just couldn’t resist so i had to share the news of our Blue Pied French Bulldog Puppies..."
  draft = false

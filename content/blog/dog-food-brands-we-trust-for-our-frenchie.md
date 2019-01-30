@@ -1,7 +1,7 @@
 +++
  title = "Dog Food Brands we Trust For our Frenchie"
  date = "2018-12-13"
- tags = ["food"]
+ category = ["food"]
  image = "dog-food-brands-we-trust-for-our-frenchie_hero.jpg"
  description = "If you can’t cook your Frenchies food, this is as close to quality you are going to get."
  draft = false

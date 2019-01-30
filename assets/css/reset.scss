@@ -57,10 +57,7 @@ blockquote {
   padding-left: 15px;
 }
 figure {
-  font: 400 17px monospace;
-  background-color: $text;
-  color: $background;
-  margin-bottom: 21px;
+  @extend %full-width;
 }
 figure,
 h1, h2, h3, h4,

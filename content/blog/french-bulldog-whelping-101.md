@@ -1,7 +1,7 @@
 +++
  title = "French Bulldog Whelping 101"
  date = "2017-07-22"
- tags = ["french bulldog care", "health"]
+ category = ["french bulldog care", "health"]
  image = "french-bulldog-whelping-101_hero.jpg"
  draft = false
  showthedate = true
