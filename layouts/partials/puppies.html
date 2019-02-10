@@ -2,7 +2,7 @@
 <div class="row">
   {{ range $i, $frt := .Site.Data.puppies.frenchies.top }}
   {{ $img := resources.Get (print "img/puppies/" $frt.Image) }}
-  <article class="pup-item">
+  <article id="{{ $frt.Name }}" class="pup-item">
     <figure class="img-wrap"><img src="{{ $img.Permalink }}" alt="{{ $frt.Name }}"></figure>
     <h2 class="name">{{ $frt.Name }}</h2>
     <p class="desc">{{ $frt.Description }}</p>
@@ -14,7 +14,7 @@
 <div class="row">
   {{ range $i, $frb := .Site.Data.puppies.frenchies.bottom }}
   {{ $img := resources.Get (print "img/puppies/" $frb.Image) }}
-  <article class="pup-item">
+  <article id="{{ $frb.Name }}" class="pup-item">
     <figure class="img-wrap"><img src="{{ $img.Permalink }}" alt="{{ $frb.Name }}"></figure>
     <h2 class="name">{{ $frb.Name }}</h2>
     <p class="desc">{{ $frb.Description }}</p>
