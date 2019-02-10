@@ -1,0 +1,7 @@
+<article id="{{ .Title }}" class="pup-item">
+  {{ $img := resources.Get (print "img/puppies/" .Params.image) }}
+  <figure class="img-wrap"><img src="{{ $img.Permalink }}" alt="{{ .Title }}"></figure>
+  <h2 class="name">{{ .Title }}</h2>
+  <p class="desc">{{ .Params.description }}</p>
+  <a href="{{ .Permalink }}" id="button" class="button-lg">Read More</a>
+</article>

@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <main class="single frenchie">
+    <article class="post">
+      {{ $img := resources.Get (print "img/puppies/" (.Params.image)) }}
+      <figure href="{{ .Permalink }}" class="hero-wrap" style="background-image: url('{{ $img.Permalink }}')">
+        <div class="overlay"></div>
+        <section class="heading">
+          <h1 class="title">{{ .Title }}</h1>
+        </section>
+        {{ $s := .Section }}
+        <section class="details">
+          <p class="author meta">By: {{ .Site.Author.name }}</p>
+          <time class="date meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </section>
+      </figure>
+      <section class="content">
+        <p>{{ .Content }}</p>
+      </section>
+    </article>
+  </main>
+  {{ partial "footer.html" . }}
+{{ end }}
