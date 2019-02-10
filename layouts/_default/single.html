@@ -1,10 +1,12 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
-  <main class="separate{{ if eq .Title "About Us" }} about{{ else if eq .Title "Contact Us" }} contact{{ end }}">
+  <main class="separate{{ if eq .Title "About Us" }} about{{ else if eq .Title "Contact Us" }} contact{{ else if eq .Title "Puppies" }} puppies{{ end }}">
     {{ if eq .Title "About Us" }}
       {{ partial "about-us.html" . }}
     {{ else if eq .Title "Contact Us" }}
       {{ partial "contact-us.html" . }}
+    {{ else if eq .Title "Puppies" }}
+      {{ partial "puppies.html" . }}
     {{ end }}
   </main>
   {{ partial "footer.html" . }}

@@ -322,6 +322,65 @@ main {
       }
     }
   }
+  &.puppies {
+    section.pup-feed {
+      @extend %content-center;
+      @extend %flex;
+      @extend %flex-column;
+      @extend %items-center;
+      div.row {
+        @extend %content-space-between;
+        @extend %flex;
+        // @extend %flex-wrap;
+        @extend %full-width;
+        @extend %items-center;
+        padding: 15px 0;
+        article.pup-item {
+          @extend %content-flex-start;
+          @extend %flex;
+          @extend %flex-column;
+          @extend %full-width;
+          @extend %items-flex-start;
+          height: 100%;
+          margin: 0 15px;
+          max-height: 1029px;
+          max-width: 1190px;
+          min-height: 335px;
+          padding: 0;
+          figure.img-wrap {
+            @extend %content-center;
+            @extend %flex;
+            @extend %full-width;
+            @extend %items-center;
+            border-radius: 15px;
+            height: auto;
+            margin: 0 0 15px;
+            max-height: 1065px;
+            max-width: 1160px;
+            overflow: hidden;
+            // width: auto;
+            img {
+              object-fit: cover;
+              object-position: center center;
+            }
+          }
+          h2.name {
+            font-size: 18px;
+            margin: 5px 0 10px;
+          }
+          p.desc {
+            font-size: 16px;
+            line-height: 26px;
+            margin: 0 0 10px;
+          }
+          a#button {
+            @extend %full-width;
+            margin-top: auto;
+          }
+        }
+      }
+    }
+  }
   &.contact {
     form#message {
       @extend %content-center;
@@ -363,7 +422,7 @@ main {
           padding: 10px;
           &:active,
           &:focus,
-          &:hover, {
+          &:hover {
             outline: none;
           }
         }
