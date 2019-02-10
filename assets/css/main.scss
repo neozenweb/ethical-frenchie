@@ -224,7 +224,7 @@ main {
             a#button {
               @extend %absolute;
               bottom: -20px;
-              z-index: 20px;
+              z-index: 20;
             }
           }
         }
