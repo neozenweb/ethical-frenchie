@@ -19,6 +19,35 @@
         {{ end }}
       </div>
     </section>
+    <section class="instant"></section>
   </main>
   {{ partial "footer.html" . }}
+{{ end }}
+{{ define "scripts" }}
+<script>
+    var getHTML = (url, callback) => {
+    // Feature detection
+    if ( !window.XMLHttpRequest ) return;
+    // Create new request
+    var xhr = new XMLHttpRequest();
+    // Setup callback
+    xhr.onload = function() {
+      if ( callback && typeof( callback ) === 'function' ) {
+        callback( this.responseXML );
+      }
+    }
+    // Get the HTML
+    xhr.open( 'GET', url );
+    xhr.responseType = 'document';
+    xhr.send();
+  };
+  {{ range .Pages }}
+  {{ $link := replaceRE " " "-" (.Title | lower) }}
+  getHTML('/puppies/{{ $link }}',(response) => {
+    const instant = document.querySelector('section.instant')
+    const post = response.querySelector('article.post')
+    instant.append(post)
+  });
+  {{ end }}
+</script>
 {{ end }}

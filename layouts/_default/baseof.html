@@ -71,6 +71,9 @@
 
   {{ partial "navbar.html" . }}
 
+  {{ block "scripts" . }}
+  {{ end }}
+
   {{ $js := resources.Get "js/lazy-loading.js" | minify }}
   <script src="{{ $js.Permalink }}"></script>
   <script>

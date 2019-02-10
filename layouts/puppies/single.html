@@ -3,7 +3,7 @@
   <main class="single frenchie">
     <article class="post">
       {{ $img := resources.Get (print "img/puppies/" (.Params.image)) }}
-      <figure href="{{ .Permalink }}" class="hero-wrap" style="background-image: url('{{ $img.Permalink }}')">
+      <figure class="hero-wrap" style="background-image: url('{{ $img.Permalink }}')">
         <div class="overlay"></div>
         <section class="heading">
           <h1 class="title">{{ .Title }}</h1>

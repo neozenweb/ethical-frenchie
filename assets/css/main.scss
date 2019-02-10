@@ -381,6 +381,11 @@ main {
         }
       }
     }
+    section.instant {
+      article.post {
+        @extend %none;
+      }
+    }
   }
   &.contact {
     form#message {
@@ -656,7 +661,7 @@ main {
           line-height: 26px;
           margin: 0 0 10px;
         }
-        figure {
+        figure.img-wrap {
           height: 400px;
           margin: 15px 0;
           img {
