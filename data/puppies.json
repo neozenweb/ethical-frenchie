@@ -1,0 +1,28 @@
+{
+  "frenchies": {
+    "top": [
+      {
+        "Name": "Greta",
+        "Description": "Princess Nala is 10 weeks old and ready to adopt you.",
+        "Image": "greta.jpg"
+      },
+      {
+        "Name": "Elle",
+        "Description": "Elle found her new home. Her new name is Luna. Good luck baby girl!",
+        "Image": "elle.jpg"
+      }
+    ],
+    "bottom": [
+      {
+        "Name": "Pickle Rick",
+        "Description": "My parents watch too much Rick and Morty",
+        "Image": "pickle-rick.jpg"
+      },
+      {
+        "Name": "Sketch",
+        "Description": "Life motto: Has big ears, still doesn’t listen.",
+        "Image": "sketch.jpg"
+      }
+    ]
+  }
+}
