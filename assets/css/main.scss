@@ -33,10 +33,10 @@
   }
 }
 div.divider {
-  @extend %full-width;
   background-color: rgba(0,0,0,0.06);
   height: 1px;
   margin: 30px 15px;
+  width: auto;
 }
 main {
   section.breeding {
