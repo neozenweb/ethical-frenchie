@@ -7,6 +7,7 @@ Install the latest version of [Hugo](https://gohugo.io/getting-started/installin
 
 [npm](https://docs.npmjs.com/getting-started/what-is-npm) is used to managed dependencies. To asure compatibility, version 8.14.0 of node and version 6.4.1 of npm are recommended. You can manage node versions using [nvm](https://github.com/creationix/nvm#installation). Once installed, you can use the config file on the repo to install and download the recommeneded node/npm version.
 
+### Installation
 From the root directory of the repo, run the install command for the recommended node version:
 ```
 nvm install
