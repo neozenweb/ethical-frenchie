@@ -323,6 +323,7 @@ main {
     }
   }
   &.puppies {
+    overflow: hidden;
     section.pup-feed {
       @extend %content-center;
       @extend %flex;
@@ -381,9 +382,39 @@ main {
         }
       }
     }
-    section.instant {
-      article.post {
+    section.instant-wrap {
+      @extend %absolute;
+      left: 0;
+      right: 0;
+      top: 55px;
+      transform: translateX(100%);
+      transition: transform 250ms ease;
+      z-index: 30;
+      article.post.instant {
+        @extend %full-width;
         @extend %none;
+        background-color: $background;
+        height: 100%;
+        margin-bottom: 60px;
+        padding: 0;
+        a#button.close-instant {
+          @extend %full-width;
+          border-radius: 0;
+          display: flex !important;
+        }
+        figure.hero-wrap {
+          border-radius: 0;
+        }
+        &.active {
+          display: block !important;
+        }
+        section.content {
+          margin-bottom: 0;
+          padding: 0 15px;
+        }
+      }
+      &.active {
+        transform: translateX(0%) !important;
       }
     }
   }
@@ -523,7 +554,7 @@ main {
     }
   }
   &.list {
-    article.post {
+    article.blog-post {
       @extend %relative;
       padding: 0;
       a.img-wrap {
@@ -584,120 +615,122 @@ main {
       }
     }
   }
-  &.single {
-    article.post {
+  article.post {
+    padding: 15px;
+    figure {
+      @extend %flex;
+      border-radius: 15px;
+      overflow: hidden;
+      @extend %relative;
+    }
+    figure.hero-wrap {
+      @extend %content-flex-end;
+      @extend %flex-column;
+      @extend %items-flex-start;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 200px;
       padding: 15px;
-      figure {
-        @extend %flex;
-        border-radius: 15px;
-        overflow: hidden;
-        @extend %relative;
+      div.overlay {
+        @extend %absolute;
+        @extend %full-width;
+        background-color: rgba(0,0,0,0.5);
+        bottom: 0;
+        height: 200px;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 1;
       }
-      figure.hero-wrap {
-        @extend %content-flex-end;
+      > section {
+        bottom: 15px;
+        left: 15px;
+        z-index: 5;
+      }
+      section.heading {
+        @extend %content-center;
+        @extend %flex;
         @extend %flex-column;
         @extend %items-flex-start;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 200px;
-        padding: 15px;
-        div.overlay {
-          @extend %absolute;
-          @extend %full-width;
-          background-color: rgba(0,0,0,0.5);
-          bottom: 0;
-          height: 200px;
-          left: 0;
-          right: 0;
-          top: 0;
-          z-index: 1;
-        }
-        > section {
-          bottom: 15px;
-          left: 15px;
-          z-index: 5;
-        }
-        section.heading {
-          @extend %content-center;
-          @extend %flex;
-          @extend %flex-column;
-          @extend %items-flex-start;
-          h1.title,
-          h2.description {
-            color: $background;
-            margin: 0 0 10px;
-          }
-          h1.title {
-            font-size: 22px;
-          }
-          h2.description {
-            font-size: 15px;
-            font-weight: normal;
-            line-height: 26px;
-          }
-        }
-        section.details {
-          @extend %content-space-between;
-          @extend %flex;
-          @extend %full-width;
-          @extend %items-center;
-          * {
-            color: $background;
-            font-size: 10px;
-          }
-        }
-        a:hover {
-          color: $main;
-        }
-      }
-      section.content {
-        margin: 30px 0;
-        h2, h3, h4 {
-          margin: 5px 0 10px;
-        }
-        p, li {
-          font-size: 14px;
-          line-height: 26px;
+        h1.title,
+        h2.description {
+          color: $background;
           margin: 0 0 10px;
         }
-        figure.img-wrap {
-          height: 400px;
-          margin: 15px 0;
-          img {
-            @extend %relative;
-            object-fit: cover;
-            object-position: center center;
-          }
+        h1.title {
+          font-size: 22px;
+        }
+        h2.description {
+          font-size: 15px;
+          font-weight: normal;
+          line-height: 26px;
+        }
+      }
+      section.details {
+        @extend %content-space-between;
+        @extend %flex;
+        @extend %full-width;
+        @extend %items-center;
+        * {
+          color: $background;
+          font-size: 10px;
+        }
+      }
+      a:hover {
+        color: $main;
+      }
+    }
+    section.content {
+      margin: 30px 0;
+      h2, h3, h4 {
+        margin: 5px 0 10px;
+      }
+      p, li {
+        font-size: 14px;
+        line-height: 26px;
+        margin: 0 0 10px;
+      }
+      p:empty {
+        @extend %none;
+      }
+      figure.img-wrap {
+        height: 400px;
+        margin: 15px 0;
+        img {
+          @extend %relative;
+          object-fit: cover;
+          object-position: center center;
         }
       }
     }
   }
-  &.frenchie {
-    article.post {
-      figure.hero-wrap {
+  article.post.instant {
+    a#button.close-instant {
+      @extend %none;
+    }
+    figure.hero-wrap {
+      height: 600px;
+      div.overlay {
         height: 600px;
+      }
+      @include media-query-max(400px) {
+        height: 500px;
         div.overlay {
-          height: 600px;
-        }
-        @include media-query-max(400px) {
           height: 500px;
-          div.overlay {
-            height: 500px;
-          }
-        }
-        @include media-query-max(350px) {
-          height: 400px;
-          div.overlay {
-            height: 400px;
-          }
         }
       }
-      section.content {
-        figure.img-wrap {
-          height: 100%;
-          max-height: 600px;
+      @include media-query-max(350px) {
+        height: 400px;
+        div.overlay {
+          height: 400px;
         }
+      }
+    }
+    section.content {
+      figure.img-wrap {
+        height: 100%;
+        max-height: 600px;
       }
     }
   }

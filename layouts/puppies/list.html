@@ -19,7 +19,7 @@
         {{ end }}
       </div>
     </section>
-    <section class="instant"></section>
+    <section class="instant-wrap"></section>
   </main>
   {{ partial "footer.html" . }}
 {{ end }}
@@ -41,13 +41,37 @@
     xhr.responseType = 'document';
     xhr.send();
   };
+  // Fetch and appen instant articles
+  let instant = document.querySelector('section.instant-wrap')
   {{ range .Pages }}
   {{ $link := replaceRE " " "-" (.Title | lower) }}
   getHTML('/puppies/{{ $link }}',(response) => {
-    const instant = document.querySelector('section.instant')
-    const post = response.querySelector('article.post')
+    const post = response.querySelector('article.post.instant')
     instant.append(post)
+    // Update Lazy Loader to initialize after articles are fetched
+    myLazyLoad.update()
   });
   {{ end }}
+
+  // Activate instant articles on click
+  let openArtLink = document.querySelectorAll('a#button.instant')
+  openArtLink.forEach(link => {
+    link.removeAttribute('href')
+    link.addEventListener('click', () => {
+      const data = link.getAttribute('data-instant')
+      const instArt = document.querySelector('article#'+data)
+      instant.classList.add('active')
+      instArt.classList.add('active')
+    })
+  })
+
+  // Close instant articles
+  var closeInst = name => {
+    const instArt = document.querySelector('article#'+name)
+    instant.classList.remove('active')
+    setTimeout(() => {
+      instArt.classList.remove('active')
+    }, 2500);
+  }
 </script>
 {{ end }}

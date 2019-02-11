@@ -10,7 +10,7 @@ nav#static-navbar {
   min-height: 60px;
   padding: 0 10px;
   right: 0;
-  z-index: 20;
+  z-index: 50;
   a {
     @extend %content-space-between;
     @extend %flex;

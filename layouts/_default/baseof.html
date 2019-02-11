@@ -46,7 +46,7 @@
 
   <!-- Favicon -->
   {{ $favicon := resources.Get "icons/favicon.png" }}
-  <link rel="shortcut icon" href="{{ $favicon.Permalink }}">
+  <link rel="icon" href="{{ $favicon.Permalink }}">
 
   <!-- Webclip and Apple Touch Icon -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -78,15 +78,13 @@
   <script src="{{ $js.Permalink }}"></script>
   <script>
     var myLazyLoad = new LazyLoad({
-      elements_selector: ".lazy",
+      elements_selector: '.lazy',
       threshold: 500,
-      class_loading: "loading",
+      class_loading: 'loading',
       class_error: "error"
     });
   </script>
   {{ if .IsHome }}
-    {{ $swiper := resources.Get "js/swiper.js" | minify }}
-    <script src="{{ $swiper.Permalink }}"></script>
     <script>
       var swiper = new Swiper('.swiper-container', {
         autoplay: {

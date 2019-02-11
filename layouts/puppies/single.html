@@ -1,7 +1,9 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
   <main class="single frenchie">
-    <article class="post">
+    {{ $name := replaceRE " " "-" (.Title | lower) }}
+    <article id="{{ $name }}" class="post instant">
+      <a id="button" class="close-instant" onclick="closeInst({{ $name }})">Close Article</a>
       {{ $img := resources.Get (print "img/puppies/" (.Params.image)) }}
       <figure class="hero-wrap" style="background-image: url('{{ $img.Permalink }}')">
         <div class="overlay"></div>
@@ -16,6 +18,7 @@
       <section class="content">
         <p>{{ .Content }}</p>
       </section>
+      <a id="button" class="close-instant" onclick="closeInst({{ $name }})">Close Article</a>
     </article>
   </main>
   {{ partial "footer.html" . }}
