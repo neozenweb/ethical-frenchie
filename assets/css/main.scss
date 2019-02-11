@@ -39,6 +39,7 @@ div.divider {
   width: auto;
 }
 main {
+  overflow: hidden;
   section.breeding {
     @extend %content-center;
     @extend %flex;

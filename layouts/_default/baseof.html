@@ -84,7 +84,7 @@
       class_error: "error"
     });
   </script>
-  {{ if .IsHome }}
+  {{ if or (.IsHome) (eq .Title "About Us") }}
     {{ $swiper := resources.Get "js/swiper.js" | minify }}
     <script src="{{ $swiper.Permalink }}"></script>
     <script>
