@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://fourjuaneight@github.com/fourjuaneight/ethical-frenchie.git"
+    "url": "git+https://jamesETF@github.com/jamesETF/ethical-frenchie.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fourjuaneight/ethical-frenchie/issues"
+    "url": "https://github.com/jamesETF/ethical-frenchie/issues"
   },
-  "homepage": "https://github.com/fourjuaneight/ethical-frenchie#readme",
+  "homepage": "https://github.com/jamesETF/ethical-frenchie#readme",
   "engines": {
     "node": "8.14.0"
   },
