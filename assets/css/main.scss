@@ -431,7 +431,7 @@ main {
         @extend %full-width;
         @extend %none;
         background-color: $background;
-        height: 100%;
+        height: 0;
         margin-bottom: 60px;
         padding: 0;
         a#button.close-instant {
@@ -444,6 +444,7 @@ main {
         }
         &.active {
           display: block !important;
+          height: 100%;
         }
         section.content {
           margin-bottom: 0;
