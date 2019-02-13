@@ -21,12 +21,12 @@ summarylength = 10
   social = "ethicalfrenchie"
   description = "Ethical Frenchie is the most trusted source of French Bulldog puppies for sale. We provides thorough veterinary and genetic examinations for each puppy."
   keywords = ""
-  [author]
-    name = "James Harrison"
-    email = "adopt@ethicalfrenchie.com"
-  [dev]
-    name = "Juan Villela"
-    email = "hello@juanvillela.me"
+
+[author]
+  name = "James Harrison"
+  email = "adopt@ethicalfrenchie.com"
+  dev = "Juan Villela"
+  devEmail = "hello@juanvillela.me"
 
 [params.google]
   analytics = ""
