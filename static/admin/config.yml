@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jamesETF/ethical-frenchie
+  repo: fourjuaneight/ethical-frenchie
 
 publish_mode: editorial_workflow
 
