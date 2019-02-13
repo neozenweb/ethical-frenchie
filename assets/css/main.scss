@@ -287,6 +287,42 @@ main {
         opacity: 0.8;
       }
     }
+    section.team {
+      @extend %content-space-around;
+      @extend %flex;
+      @extend %flex-wrap;
+      @extend %full-width;
+      @extend %items-center;
+      div.person {
+        @extend %content-center;
+        @extend %flex;
+        @extend %flex-column;
+        @extend %items-center;
+        margin: 10px;
+        padding: 10px;
+        width: 250px;
+        img.face {
+          border-radius: 50%;
+          height: 150px;
+          margin: 0 auto 20px;
+          width: 150px;
+        }
+        p.name {
+          font-size: 24px;
+          line-height: 30px;
+          margin: 0 auto 10px;
+          text-align: center;
+        }
+        nav.cta-social {
+          margin: 0 auto;
+          width: 135px;
+          a {
+            height: 35px;
+            width: 35px;
+          }
+        }
+      }
+    }
     section.gaurantees {
       div.item {
         padding: 0 0 0 30px;
