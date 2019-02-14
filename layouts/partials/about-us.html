@@ -12,45 +12,36 @@
 <div class="divider"></div>
 <section class="team">
   <div class="person">
-    {{ $temp := resources.Get "img/temp.jpg" }}
-    <img class="face" src="{{ $temp.Permalink }}" alt="">
+    {{ $james := resources.Get "img/james.jpg" }}
+    <img class="face" src="{{ $james.Permalink }}" alt="">
     <p class="name">James Harrison</p>
     <nav class="cta-social">
-      {{ with .Site.Params.social }}
-      <a href="https://www.facebook.com/{{.}}" class="social-icon facebook">
+      <a href="http://facebook.com/jamersonnc" class="social-icon facebook">
         {{ $facebok := resources.Get "img/facebook.svg" | minify }}
-        <img src="{{ $facebok.Permalink }}" alt="Connect with us on Facebook">
+        <img src="{{ $facebok.Permalink }}" alt="Connect with me on Facebook">
       </a>
-      <a href="https://www.instagram.com/{{.}}" class="social-icon instagram">
-        {{ $instagram := resources.Get "img/instagram.svg" | minify }}
-        <img src="{{ $instagram.Permalink }}" alt="Connect with us on Instagram">
-      </a>
-      {{ end }}
-      <a href="tel:+18002057859" class="social-icon tel">
-        {{ $phone := resources.Get "img/phone.svg" | minify }}
-        <img src="{{ $phone.Permalink }}" alt="Call us">
+      <a href="http://linkedin.com/in/jamesharrisoniii" class="social-icon linkedin">
+        {{ $linkedin := resources.Get "img/linkedin.svg" | minify }}
+        <img src="{{ $linkedin.Permalink }}" alt="Connect with me on linkedin">
       </a>
     </nav>
   </div>
   <div class="person">
-    <img class="face" src="{{ $temp.Permalink }}" alt="">
+    {{ $renee := resources.Get "img/renee.jpg" }}
+    <img class="face" src="{{ $renee.Permalink }}" alt="">
     <p class="name">Renee Harrison</p>
+  </div>
+  <div class="person">
+    {{ $bryan := resources.Get "img/bryan.jpg" }}
+    <img class="face" src="{{ $bryan.Permalink }}" alt="">
+    <p class="name">Bryan Lee</p>
     <nav class="cta-social">
       {{ with .Site.Params.social }}
       <a href="https://www.facebook.com/{{.}}" class="social-icon facebook">
         {{ $facebok := resources.Get "img/facebook.svg" | minify }}
         <img src="{{ $facebok.Permalink }}" alt="Connect with us on Facebook">
       </a>
-      <a href="https://www.instagram.com/{{.}}" class="social-icon instagram">
-        {{ $instagram := resources.Get "img/instagram.svg" | minify }}
-        <img src="{{ $instagram.Permalink }}" alt="Connect with us on Instagram">
-      </a>
       {{ end }}
-      <a href="tel:+18002057859" class="social-icon tel">
-        {{ $phone := resources.Get "img/phone.svg" | minify }}
-        <img src="{{ $phone.Permalink }}" alt="Call us">
-      </a>
-    </nav>
   </div>
 </section>
 <div class="divider"></div>
