@@ -75,6 +75,22 @@
   {{ block "scripts" . }}
   {{ end }}
 
+  <!-- SW -->
+  {{ $sw := resources.Get "sw.js" | minify }}
+  {{/*  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register("{{ $sw.RelPermalink }}", { scope: "/" });
+      navigator.serviceWorker.ready.then(registration => {
+        console.log("SW Ready");
+      });
+      window.addEventListener("load", () => {
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.postMessage({ command: "trimCaches" });
+        }
+      });
+    }
+  </script>  */}}
+
   {{ $js := resources.Get "js/lazy-loading.js" | minify }}
   <script src="{{ $js.Permalink }}"></script>
   <script>
