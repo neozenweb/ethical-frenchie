@@ -7,6 +7,12 @@
       {{ partial "contact-us.html" . }}
     {{ else if eq .Title "Puppies" }}
       {{ partial "puppies.html" . }}
+    {{ else }}
+      <section class="content">
+        <article>
+          {{ .Content }}
+        </article>
+      </section>
     {{ end }}
   </main>
   {{ partial "footer.html" . }}

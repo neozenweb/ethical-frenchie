@@ -6,7 +6,6 @@
   const imagesCacheName = cacheName + 'images';
   const staticAssets = [
     '/',
-    '/blog/',
     '/offline/',
     '/css/main.min.css',
     '/fonts/Montserrat-Italic.woff',
