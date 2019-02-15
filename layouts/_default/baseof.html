@@ -77,7 +77,7 @@
 
   <!-- SW -->
   {{ $sw := resources.Get "sw.js" | minify }}
-  {{/*  <script>
+  <script>
     if (navigator.serviceWorker) {
       navigator.serviceWorker.register("{{ $sw.RelPermalink }}", { scope: "/" });
       navigator.serviceWorker.ready.then(registration => {
@@ -89,7 +89,7 @@
         }
       });
     }
-  </script>  */}}
+  </script>
 
   {{ $js := resources.Get "js/lazy-loading.js" | minify }}
   <script src="{{ $js.Permalink }}"></script>
