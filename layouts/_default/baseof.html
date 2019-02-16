@@ -45,6 +45,15 @@
   {{ $styles := resources.Get "css/main.scss" | toCSS | postCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
+  <!-- Open Graph -->
+  {{ $icon := resources.Get "icons/icon.png" }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ template "_internal/twitter_cards.html" . }}
+  <meta name="twitter:image" content="{{ $icon.RelPermalink }}">
+  {{ template "_internal/opengraph.html" . }}
+  <meta property="og:image" content="{{ $icon.RelPermalink }}">
+  {{ template "_internal/schema.html" . }}
+
   <!-- Favicon -->
   {{ $favicon := resources.Get "icons/favicon.png" }}
   <link rel="icon" href="{{ $favicon.Permalink }}">
