@@ -65,6 +65,10 @@
   <link rel="icon" sizes="128x128" href="{{ $i128.Permalink }}">
   {{ $i192 := resources.Get "icons/icon-192x192.png" }}
   <link rel="icon" sizes="192x192" href="{{ $i192.Permalink }}">
+
+  <!-- Manifest -->
+  {{ $manifest := resources.Get "manifest.json" }}
+  <link rel="manifest" href="{{ $manifest.RelPermalink }}">
 </head>
 <body>
   {{ block "main" . }}
