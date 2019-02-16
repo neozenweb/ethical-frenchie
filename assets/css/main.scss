@@ -233,7 +233,7 @@ main {
       }
     }
   }
-  > section.content {
+  > section.offline {
     @extend %content-center;
     @extend %flex;
     @extend %flex-column;
