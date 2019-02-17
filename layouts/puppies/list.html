@@ -54,7 +54,7 @@
   {{ end }}
 
   // Activate instant articles on click
-  let openArtLink = document.querySelectorAll('a#button.instant')
+  let openArtLink = document.querySelectorAll('a.button.instant')
   openArtLink.forEach(link => {
     link.removeAttribute('href')
     link.addEventListener('click', () => {
