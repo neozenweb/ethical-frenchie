@@ -4,5 +4,5 @@
   <h2 class="name">{{ .Title }}</h2>
   <p class="desc">{{ .Params.description }}</p>
   {{ $name := replaceRE " " "-" (.Title | lower) }}
-  <a href="{{ .Permalink }}" class="button button-lg instant" data-instant="{{ $name }}">Read More</a>
+  <a href="{{ .Permalink }}" class="button button-lg instant" data-instant="{{ $name }}" aria-label="Read More about {{ .Title }}">Read More</a>
 </article>

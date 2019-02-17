@@ -84,7 +84,7 @@
             {{ $img := resources.Get (print "img/puppies/" $frt.Image) }}
             <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
               <h3>{{ $frt.Name }}</h3>
-              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frt.Name }}" class="button button-lg">Learn More</a>
+              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frt.Name }}" class="button button-lg" aria-label="Learn More about {{ $frt.Name }}">Learn More</a>
             </div>
             {{ end }}
           </li>
@@ -93,7 +93,7 @@
             {{ $img := resources.Get (print "img/puppies/" $frb.Image) }}
             <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
               <h3>{{ $frb.Name }}</h3>
-              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frb.Name }}" class="button button-lg">Learn More</a>
+              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frb.Name }}" class="button button-lg" aria-label="Learn More about {{ $frb.Name }}">Learn More</a>
             </div>
             {{ end }}
           </li>

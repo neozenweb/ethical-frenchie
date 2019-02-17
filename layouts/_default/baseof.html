@@ -12,8 +12,14 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1.0,maximum-scale=5.0,viewport-fit=cover">
   <meta name="theme-color" content="#900c3f">
 
-  <!-- Critical -->
-  {{ partial "critical.html" . }}
+  <!-- Open Graph -->
+  {{ $icon := resources.Get "icons/icon.png" }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ template "_internal/twitter_cards.html" . }}
+  <meta name="twitter:image" content="{{ $icon.RelPermalink }}">
+  {{ template "_internal/opengraph.html" . }}
+  <meta property="og:image" content="{{ $icon.RelPermalink }}">
+  {{ template "_internal/schema.html" . }}
 
   <!-- Fonts -->
   {{ $Montserratl2 := resources.Get "fonts/Montserrat-Light.woff2" }}
@@ -42,18 +48,16 @@
   {{ $Ubuntub := resources.Get "fonts/Ubuntu-Bold.woff" }}
   <link rel="preload" href={{ $Ubuntub.Permalink }} as="font" type="font/woff" crossorigin>
 
+  <!-- Critical -->
+  {{ partial "critical.html" . }}
+
   <!-- Stylesheets -->
   {{ $styles := resources.Get "css/main.scss" | toCSS | postCSS | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
-  <!-- Open Graph -->
-  {{ $icon := resources.Get "icons/icon.png" }}
-  <link rel="canonical" href="{{ .Permalink }}">
-  {{ template "_internal/twitter_cards.html" . }}
-  <meta name="twitter:image" content="{{ $icon.RelPermalink }}">
-  {{ template "_internal/opengraph.html" . }}
-  <meta property="og:image" content="{{ $icon.RelPermalink }}">
-  {{ template "_internal/schema.html" . }}
+  <!-- Manifest -->
+  {{ $manifest := resources.Get "manifest.json" }}
+  <link rel="manifest" href="{{ $manifest.RelPermalink }}">
 
   <!-- Favicon -->
   {{ $favicon := resources.Get "icons/favicon.png" }}
@@ -77,10 +81,6 @@
   <link rel="icon" sizes="192x192" href="{{ $i192.Permalink }}">
   {{ $i512 := resources.Get "icons/icon-512x512.png" }}
   <link rel="icon" sizes="512x512" href="{{ $i512.RelPermalink }}">
-
-  <!-- Manifest -->
-  {{ $manifest := resources.Get "manifest.json" }}
-  <link rel="manifest" href="{{ $manifest.RelPermalink }}">
 </head>
 <body>
   {{ block "main" . }}
@@ -107,11 +107,8 @@
     }
   </script>
 
-  {{ $smooth := resources.Get "js/smooth.js" }}
-  {{ $lazy := resources.Get "js/lazy-loading.js" }}
-  {{ $swiper := resources.Get "js/swiper.js" }}
-  {{ $bundle := slice $smooth $lazy $swiper | resources.Concat "js/bundle.js" | minify }}
-  <script src="{{ $bundle.Permalink }}"></script>
+  {{ $js := resources.Get "js/lazy-loading.js" | minify }}
+  <script src="{{ $js.Permalink }}"></script>
   <script>
     var myLazyLoad = new LazyLoad({
       elements_selector: '.lazy',
@@ -121,6 +118,8 @@
     });
   </script>
   {{ if or (.IsHome) (eq .Title "About Us") }}
+    {{ $swiper := resources.Get "js/swiper.js" | minify }}
+    <script src="{{ $swiper.Permalink }}"></script>
     <script>
       var swiper = new Swiper('.swiper-container', {
         autoplay: {
@@ -129,5 +128,7 @@
       });
     </script>
   {{ end }}
+  {{ $smooth := resources.Get "js/smooth.js" | minify }}
+<script src="{{ $smooth.Permalink }}"></script>
 </body>
 </html>

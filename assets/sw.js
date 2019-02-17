@@ -6,7 +6,9 @@
   const imagesCacheName = cacheName + 'images';
   const staticAssets = [
     '/',
+    '/blog/',
     '/offline/',
+    '/puppies/',
     '/css/main.min.css',
     '/fonts/Montserrat-Italic.woff',
     '/fonts/Montserrat-Italic.woff2',
@@ -20,7 +22,9 @@
     '/fonts/Ubuntu-Bold.woff2',
     '/fonts/Ubuntu-Regular.woff',
     '/fonts/Ubuntu-Regular.woff2',
-    '/js/bundle.min.js',
+    '/js/lazy-loading.min.js',
+    '/js/smooth.min.js',
+    '/js/swiper.min.js'
   ];
   function updateStaticCache() {
     // These items must be cached for the Service Worker to complete installation
