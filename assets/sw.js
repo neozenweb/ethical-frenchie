@@ -1,14 +1,12 @@
 (function () {
-  const version = 'v4';
+  const version = 'v5';
   const cacheName = ':ethicalfrenchie:';
   const staticCacheName = version + cacheName + 'static';
   const pagesCacheName = cacheName + 'pages';
   const imagesCacheName = cacheName + 'images';
   const staticAssets = [
     '/',
-    '/blog/',
-    '/puppies/',
-    '/offline/',
+    '/offline',
     '/css/main.min.css',
     '/fonts/Montserrat-Italic.woff',
     '/fonts/Montserrat-Italic.woff2',
@@ -96,7 +94,7 @@
           .catch(() => {
             // CACHE or FALLBACK
             return caches.match(request)
-              .then(response => response || caches.match('/offline/'));
+              .then(response => response || caches.match('/offline'));
           })
       );
       return;
