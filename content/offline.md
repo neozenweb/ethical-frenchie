@@ -9,6 +9,6 @@ showthedate = false
 Much of the site is available regardless of network connection.
 
 - [Home](/)
-- [Blog](/blog/)
+- [Puppies](/puppies/)
 
 Along with any other pages you've previously viewed.

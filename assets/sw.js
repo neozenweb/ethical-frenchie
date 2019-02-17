@@ -1,5 +1,5 @@
 (function () {
-  const version = 'v3';
+  const version = 'v4';
   const cacheName = ':ethicalfrenchie:';
   const staticCacheName = version + cacheName + 'static';
   const pagesCacheName = cacheName + 'pages';
@@ -7,8 +7,8 @@
   const staticAssets = [
     '/',
     '/blog/',
-    '/offline/',
     '/puppies/',
+    '/offline/',
     '/css/main.min.css',
     '/fonts/Montserrat-Italic.woff',
     '/fonts/Montserrat-Italic.woff2',
@@ -22,9 +22,7 @@
     '/fonts/Ubuntu-Bold.woff2',
     '/fonts/Ubuntu-Regular.woff',
     '/fonts/Ubuntu-Regular.woff2',
-    '/js/lazy-loading.min.js',
-    '/js/smooth.min.js',
-    '/js/swiper.min.js'
+    '/js/bundle.min.js'
   ];
   function updateStaticCache() {
     // These items must be cached for the Service Worker to complete installation
@@ -80,7 +78,7 @@
   self.addEventListener('fetch', event => {
     const request = event.request;
     const url = new URL(request.url);
-    if (url.href.indexOf('https://www.ethicalfrenchie.com') !== 0) return;
+    if (url.href.indexOf('https://ethicalfrenchie.com') !== 0) return;
     if (request.method !== 'GET') return;
     if (url.href.indexOf('?') !== -1) return;
     if (request.headers.get('Accept').includes('text/html')) {

@@ -107,8 +107,11 @@
     }
   </script>
 
-  {{ $js := resources.Get "js/lazy-loading.js" | minify }}
-  <script src="{{ $js.Permalink }}"></script>
+  {{ $smooth := resources.Get "js/smooth.js" }}
+  {{ $lazy := resources.Get "js/lazy-loading.js" }}
+  {{ $swiper := resources.Get "js/swiper.js" }}
+  {{ $bundle := slice $smooth $lazy $swiper | resources.Concat "js/bundle.js" | minify }}
+  <script src="{{ $bundle.Permalink }}"></script>
   <script>
     var myLazyLoad = new LazyLoad({
       elements_selector: '.lazy',
@@ -118,8 +121,6 @@
     });
   </script>
   {{ if or (.IsHome) (eq .Title "About Us") }}
-    {{ $swiper := resources.Get "js/swiper.js" | minify }}
-    <script src="{{ $swiper.Permalink }}"></script>
     <script>
       var swiper = new Swiper('.swiper-container', {
         autoplay: {
@@ -127,8 +128,6 @@
         }
       });
     </script>
-  {{ end }}
-  {{ $smooth := resources.Get "js/smooth.js" | minify }}
-<script src="{{ $smooth.Permalink }}"></script>
+{{ end }}
 </body>
 </html>

@@ -39,14 +39,20 @@ function critical() {
 // Image Optimization
 function optimize() {
   return gulp
-    .src('assets/img/puppies/*.jpg')
+    .src('static/img/*.jpg')
     .pipe(plumber())
-    .pipe(imagemin({
-      interlaced: true,
-      progressive: true,
-      optimizationLevel: 5
-    }))
-.pipe(gulp.dest('static/img'));
+    .pipe(
+      cache(
+        imagemin({
+          use: [
+            imageminMozjpeg({
+              quality: 60
+            })
+          ]
+        })
+      )
+)
+.pipe(gulp.dest('static/img/puppies'));
 }
 
 // Watch asset folder for changes
