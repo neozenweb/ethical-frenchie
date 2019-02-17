@@ -21,33 +21,6 @@
   <meta property="og:image" content="{{ $icon.RelPermalink }}">
   {{ template "_internal/schema.html" . }}
 
-  <!-- Fonts -->
-  {{ $Montserratl2 := resources.Get "fonts/Montserrat-Light.woff2" }}
-  <link rel="preload" href={{ $Montserratl2.Permalink }} as="font" type="font/woff2" crossorigin>
-  {{ $Montserratl := resources.Get "fonts/Montserrat-Light.woff" }}
-  <link rel="preload" href={{ $Montserratl.Permalink }} as="font" type="font/woff" crossorigin>
-  {{ $Montserrat2 := resources.Get "fonts/Montserrat-Regular.woff2" }}
-  <link rel="preload" href={{ $Montserrat2.Permalink }} as="font" type="font/woff2" crossorigin>
-  {{ $Montserrat := resources.Get "fonts/Montserrat-Regular.woff" }}
-  <link rel="preload" href={{ $Montserrat.Permalink }} as="font" type="font/woff" crossorigin>
-  {{ $Montserrati2 := resources.Get "fonts/Montserrat-Italic.woff2" }}
-  <link rel="preload" href={{ $Montserrati2.Permalink }} as="font" type="font/woff2" crossorigin>
-  {{ $Montserrati := resources.Get "fonts/Montserrat-Italic.woff" }}
-  <link rel="preload" href={{ $Montserrati.Permalink }} as="font" type="font/woff" crossorigin>
-  {{ $Montserratb2 := resources.Get "fonts/Montserrat-Bold.woff2" }}
-  <link rel="preload" href={{ $Montserratb2.Permalink }} as="font" type="font/woff2" crossorigin>
-  {{ $Montserratb := resources.Get "fonts/Montserrat-Bold.woff" }}
-  <link rel="preload" href={{ $Montserratb.Permalink }} as="font" type="font/woff" crossorigin>
-  
-  {{ $Ubuntu2 := resources.Get "fonts/Ubuntu-Regular.woff2" }}
-  <link rel="preload" href={{ $Ubuntu2.Permalink }} as="font" type="font/woff2" crossorigin>
-  {{ $Ubuntu := resources.Get "fonts/Ubuntu-Regular.woff" }}
-  <link rel="preload" href={{ $Ubuntu.Permalink }} as="font" type="font/woff" crossorigin>
-  {{ $Ubuntub2 := resources.Get "fonts/Ubuntu-Bold.woff2" }}
-  <link rel="preload" href={{ $Ubuntub2.Permalink }} as="font" type="font/woff2" crossorigin>
-  {{ $Ubuntub := resources.Get "fonts/Ubuntu-Bold.woff" }}
-  <link rel="preload" href={{ $Ubuntub.Permalink }} as="font" type="font/woff" crossorigin>
-
   <!-- Critical -->
   {{ partial "critical.html" . }}
 
