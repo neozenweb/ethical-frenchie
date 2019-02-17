@@ -2,9 +2,13 @@
 
 // Load Plugins
 const autoprefixer = require('autoprefixer');
+const cache = require('gulp-cache');
 const concat = require('gulp-concat-util');
 const cssnano = require('cssnano');
+const gm = require('gulp-gm');
 const gulp = require('gulp');
+const imagemin = require('gulp-imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg');
 const plumber = require('gulp-plumber');
 const postcss = require('gulp-postcss');
 const rename = require('gulp-rename');
@@ -32,6 +36,19 @@ function critical() {
       .pipe(gulp.dest('layouts/partials'))
 }
 
+// Image Optimization
+function optimize() {
+  return gulp
+    .src('assets/img/puppies/*.jpg')
+    .pipe(plumber())
+    .pipe(imagemin({
+      interlaced: true,
+      progressive: true,
+      optimizationLevel: 5
+    }))
+.pipe(gulp.dest('static/img'));
+}
+
 // Watch asset folder for changes
 function watchFiles() {
   gulp.watch('assets/css/colors.scss', critical);
@@ -45,6 +62,7 @@ function watchFiles() {
 
 // Tasks
 gulp.task("critical", critical);
+gulp.task("optimize", optimize);
 
 // Run Watch as default
 gulp.task('watch', watchFiles);

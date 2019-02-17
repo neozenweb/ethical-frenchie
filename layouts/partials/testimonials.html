@@ -4,11 +4,11 @@
     <p class="subtext">What sets us apart? The amount of time we dedicate to you.</p>
     <div class="stars">
       {{ $star := resources.Get "img/star.svg" | minify }}
-      <img src="{{ $star.Permalink }}">
-      <img src="{{ $star.Permalink }}">
-      <img src="{{ $star.Permalink }}">
-      <img src="{{ $star.Permalink }}">
-      <img src="{{ $star.Permalink }}">
+      <img src="{{ $star.Permalink }}" alt="1 Star">
+      <img src="{{ $star.Permalink }}" alt="2 Stars">
+      <img src="{{ $star.Permalink }}" alt="3 Stars">
+      <img src="{{ $star.Permalink }}" alt="4 Stars">
+      <img src="{{ $star.Permalink }}" alt="5 Stars">
     </div>
     <div class="swiper-container customers">
       <ul class="swiper-wrapper">
@@ -17,7 +17,7 @@
           <p>{{ $customers }}</p>
           <p class="verified">
             {{ $verified := resources.Get "img/verified.svg" | minify }}
-            <img src="{{ $verified.Permalink }}">
+            <img src="{{ $verified.Permalink }}" alt="Verified on Facebook">
             Verified Customer
             <span>via Facebook</span>
           </p>
@@ -25,6 +25,6 @@
         {{ end }}
       </ul>
     </div>
-    <a href="{{ .Site.BaseURL }}testimonials" id="button" class="button-lg">More Testimonials</a>
+    <a href="{{ .Site.BaseURL }}testimonials" class="button button-lg">More Testimonials</a>
   </div>
 </section>

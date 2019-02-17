@@ -1,5 +1,5 @@
 (function () {
-  const version = 'v2';
+  const version = 'v3';
   const cacheName = ':ethicalfrenchie:';
   const staticCacheName = version + cacheName + 'static';
   const pagesCacheName = cacheName + 'pages';
@@ -20,9 +20,7 @@
     '/fonts/Ubuntu-Bold.woff2',
     '/fonts/Ubuntu-Regular.woff',
     '/fonts/Ubuntu-Regular.woff2',
-    '/js/lazy-loading.min.js',
-    '/js/smooth.min.js',
-    '/js/swiper.min.js'
+    '/js/bundle.min.js',
   ];
   function updateStaticCache() {
     // These items must be cached for the Service Worker to complete installation

@@ -30,19 +30,19 @@
         </a>
         <a href="https://www.instagram.com/{{.}}" class="social-icon instagram">
           {{ $instagram := resources.Get "img/instagram.svg" | minify }}
-          <img src="{{ $instagram.Permalink }}" alt="Connect with us on Facebook">
+          <img src="{{ $instagram.Permalink }}" alt="Connect with us on Instagram">
         </a>
         {{ end }}
         <a href="tel:+18002057859" class="social-icon tel">
           {{ $phone := resources.Get "img/phone.svg" | minify }}
-          <img src="{{ $phone.Permalink }}" alt="Connect with us on Facebook">
+          <img src="{{ $phone.Permalink }}" alt="Call us">
         </a>
       </nav>
     </section>
     <section class="breeding">
       <h2>Breeding with Love</h2>
       <p class="meta">We're Humans who love French Bulldogs. While we realize that adopting should always be the first choice, We understand that sometimes you just want to raise your own baby from day 1. As a small Mom & Pop French Bulldog Puppy Breeder, We ensure that every frenchie purchased from us contributes directly to helping neglected and abandoned pets.</p>
-      <a href="{{ .Site.BaseURL }}puppies" id="button" class="button-lg">View Our Puppies!</a>
+      <a href="{{ .Site.BaseURL }}puppies" class="button button-lg">View Our Puppies!</a>
     </section>
     <div class="divider"></div>
     <section class="gaurantees">
@@ -84,7 +84,7 @@
             {{ $img := resources.Get (print "img/puppies/" $frt.Image) }}
             <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
               <h3>{{ $frt.Name }}</h3>
-              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frt.Name }}" id="button" class="button-lg">Learn More</a>
+              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frt.Name }}" class="button button-lg">Learn More</a>
             </div>
             {{ end }}
           </li>
@@ -93,7 +93,7 @@
             {{ $img := resources.Get (print "img/puppies/" $frb.Image) }}
             <div class="pup-item" style="background-image:url('{{ $img.Permalink }}');">
               <h3>{{ $frb.Name }}</h3>
-              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frb.Name }}" id="button" class="button-lg">Learn More</a>
+              <a href="{{ $.Site.BaseURL }}puppies/#{{ $frb.Name }}" class="button button-lg">Learn More</a>
             </div>
             {{ end }}
           </li>

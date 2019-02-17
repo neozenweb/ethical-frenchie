@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://ethicalfrenchie.com/"
 copyright = "Ethical Frenchie LLC"
 enableEmoji = "true"
 enableRobotsTXT = "true"
@@ -34,4 +34,5 @@ summarylength = 10
   adsense = ""
 
 [outputs]
-  home = ["html", "rss"]
+  home = ["html"]
+  section = ["html"]

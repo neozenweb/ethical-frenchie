@@ -13,7 +13,7 @@
 <section class="team">
   <div class="person">
     {{ $james := resources.Get "img/james.jpg" }}
-    <img class="face" src="{{ $james.Permalink }}" alt="">
+    <img class="face" src="{{ $james.Permalink }}" alt="James Harrison">
     <p class="name">James Harrison</p>
     <nav class="cta-social">
       <a href="http://facebook.com/jamersonnc" class="social-icon facebook">
@@ -22,18 +22,18 @@
       </a>
       <a href="http://linkedin.com/in/jamesharrisoniii" class="social-icon linkedin">
         {{ $linkedin := resources.Get "img/linkedin.svg" | minify }}
-        <img src="{{ $linkedin.Permalink }}" alt="Connect with me on linkedin">
+        <img src="{{ $linkedin.Permalink }}" alt="Connect with me on Linked In">
       </a>
     </nav>
   </div>
   <div class="person">
     {{ $renee := resources.Get "img/renee.jpg" }}
-    <img class="face" src="{{ $renee.Permalink }}" alt="">
+    <img class="face" src="{{ $renee.Permalink }}" alt="Renee Harrison">
     <p class="name">Renee Harrison</p>
   </div>
   <div class="person">
     {{ $bryan := resources.Get "img/bryan.jpg" }}
-    <img class="face" src="{{ $bryan.Permalink }}" alt="">
+    <img class="face" src="{{ $bryan.Permalink }}" alt="Bryan Lee">
     <p class="name">Bryan Lee</p>
     <nav class="cta-social">
       {{ with .Site.Params.social }}
