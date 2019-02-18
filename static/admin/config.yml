@@ -21,3 +21,4 @@ collections:
       - {label: 'Description', name: 'description', widget: 'text'}
       - {label: 'Show Date', name: 'showthedate', widget: 'boolean', default: true}
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: true}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
