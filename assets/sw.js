@@ -6,7 +6,8 @@
   const imagesCacheName = cacheName + 'images';
   const staticAssets = [
     '/',
-    '/offline',
+    '/offline/',
+    '/puppies/',
     '/css/main.min.css',
     '/fonts/Montserrat-Italic.woff',
     '/fonts/Montserrat-Italic.woff2',
@@ -94,7 +95,7 @@
           .catch(() => {
             // CACHE or FALLBACK
             return caches.match(request)
-              .then(response => response || caches.match('/offline'));
+              .then(response => response || caches.match('/offline/'));
           })
       );
       return;
