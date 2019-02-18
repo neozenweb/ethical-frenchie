@@ -3,16 +3,16 @@
   <p class="meta">Our Experience, passion, and dedication for our french bulldog puppies speaks for itself.</p>
   <nav class="cta-social">
     {{ with .Site.Params.social }}
-    <a href="https://www.facebook.com/{{.}}" class="social-icon facebook">
+    <a href="https://www.facebook.com/{{.}}" class="social-icon facebook" target="_blank" rel="noopener">
       {{ $facebok := resources.Get "img/facebook.svg" | minify }}
       <img src="{{ $facebok.Permalink }}" alt="Connect with us on Facebook">
     </a>
-    <a href="https://www.instagram.com/{{.}}" class="social-icon instagram">
+    <a href="https://www.instagram.com/{{.}}" class="social-icon instagram" target="_blank" rel="noopener">
       {{ $instagram := resources.Get "img/instagram.svg" | minify }}
       <img src="{{ $instagram.Permalink }}" alt="Connect with us on Instagram">
     </a>
     {{ end }}
-    <a href="tel:+18002057859" class="social-icon tel">
+    <a href="tel:+18002057859" class="social-icon tel" target="_blank" rel="noopener">
       {{ $phone := resources.Get "img/phone.svg" | minify }}
       <img src="{{ $phone.Permalink }}" alt="Call us">
     </a>
