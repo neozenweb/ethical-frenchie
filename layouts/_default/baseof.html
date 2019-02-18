@@ -30,7 +30,7 @@
 
   <!-- Manifest -->
   {{ $manifest := resources.Get "manifest.json" }}
-  <link rel="manifest" href="{{ $manifest.RelPermalink }}">
+  <link rel="manifest" href="{{ $manifest.Permalink }}">
 
   <!-- Favicon -->
   {{ $favicon := resources.Get "icons/favicon.png" }}
@@ -53,7 +53,7 @@
   {{ $i192 := resources.Get "icons/icon-192x192.png" }}
   <link rel="icon" sizes="192x192" href="{{ $i192.Permalink }}">
   {{ $i512 := resources.Get "icons/icon-512x512.png" }}
-  <link rel="icon" sizes="512x512" href="{{ $i512.RelPermalink }}">
+  <link rel="icon" sizes="512x512" href="{{ $i512.Permalink }}">
 </head>
 <body>
   {{ block "main" . }}
