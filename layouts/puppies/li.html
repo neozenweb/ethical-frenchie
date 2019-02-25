@@ -1,6 +1,6 @@
 <article id="{{ .Title }}" class="pup-item">
   {{ $img := resources.Get (print "img/puppies/" .Params.image) }}
-  <figure class="img-wrap"><img src="{{ $img.Permalink }}" alt="{{ .Title }}"></figure>
+  <figure class="img-wrap"><img data-src="{{ $img.Permalink }}" alt="{{ .Title }}" class="lazy"></figure>
   <h2 class="name">{{ .Title }}</h2>
   <p class="desc">{{ .Params.description }}</p>
   {{ $name := replaceRE " " "-" (.Title | lower) }}

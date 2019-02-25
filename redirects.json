@@ -1,0 +1,682 @@
+[
+  {
+    "Page rating (desc)": 100,
+    "URL": "https://ethicalfrenchie.com/",
+    "Organic traffic": 1.640504,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 20
+  },
+  {
+    "Page rating (desc)": 96,
+    "URL": "https://ethicalfrenchie.com/puppies/",
+    "Organic traffic": 0.000004,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 2
+  },
+  {
+    "Page rating (desc)": 92,
+    "URL": "https://ethicalfrenchie.com/contact-us/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 92,
+    "URL": "https://ethicalfrenchie.com/blog/",
+    "Organic traffic": 0.00001,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 92,
+    "URL": "https://ethicalfrenchie.com/about-us/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 91,
+    "URL": "https://ethicalfrenchie.com/puppies",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 21
+  },
+  {
+    "Page rating (desc)": 91,
+    "URL": "https://ethicalfrenchie.com/contact-us",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 21
+  },
+  {
+    "Page rating (desc)": 91,
+    "URL": "https://ethicalfrenchie.com/blog",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 21
+  },
+  {
+    "Page rating (desc)": 91,
+    "URL": "https://ethicalfrenchie.com/about-us",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 21
+  },
+  {
+    "Page rating (desc)": 64,
+    "URL": "https://ethicalfrenchie.com/testimonials",
+    "Organic traffic": 0,
+    "HTTP status code": 404,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 2
+  },
+  {
+    "Page rating (desc)": 59,
+    "URL": "https://www.ethicalfrenchie.com/",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/plain",
+    "Depth": 0,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 58,
+    "URL": "https://ethicalfrenchie.com/blog/category/health",
+    "Organic traffic": 0,
+    "HTTP status code": 404,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 6
+  },
+  {
+    "Page rating (desc)": 56,
+    "URL": "https://ethicalfrenchie.com/blog/category/french bulldog care",
+    "Organic traffic": 0,
+    "HTTP status code": 404,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 5
+  },
+  {
+    "Page rating (desc)": 55,
+    "URL": "https://ethicalfrenchie.com/puppies/sketch/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 55,
+    "URL": "https://ethicalfrenchie.com/puppies/pickle-rick/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 55,
+    "URL": "https://ethicalfrenchie.com/puppies/elle/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 55,
+    "URL": "https://ethicalfrenchie.com/puppies/greta/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 55,
+    "URL": "https://ethicalfrenchie.com/blog/category/food",
+    "Organic traffic": 0,
+    "HTTP status code": 404,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 4
+  },
+  {
+    "Page rating (desc)": 53,
+    "URL": "https://ethicalfrenchie.com/blog/category/french bulldog puppy for sale",
+    "Organic traffic": 0,
+    "HTTP status code": 404,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 2
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/the-blue-pied-french-bulldog-puppies/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/potty-train-your-frenchie/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/home-cooked-food-for-your-french-bulldog/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/french-bulldog-whelping-101/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/frenchie-grooming-tips/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/dog-food-brands-we-trust-for-our-frenchie/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/french-bulldog-home-made-treats/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 52,
+    "URL": "https://ethicalfrenchie.com/cheap-french-bulldog-puppies-under-500/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/puppies/sketch.jpg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/jpeg",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/puppies/pickle-rick.jpg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/jpeg",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/puppies/greta.jpg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/jpeg",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/renee.jpg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/jpeg",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/puppies/elle.jpg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/jpeg",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/linkedin.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/logo.png",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/png",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/james.jpg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/jpeg",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/bryan.jpg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/jpeg",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/css/main.min.css",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/css; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/js/bundle.min.js",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "application/javascript",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/verified.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/up.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/socialization.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/star.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/phone.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/instagram.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/facebook.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/healthy.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/img/buy.min.svg",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "image/svg+xml",
+    "Depth": 1,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/offline/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/tags/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "https://ethicalfrenchie.com/categories/",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 0,
+    "Is indexable page": "Yes",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "http://www.ethicalfrenchie.com/",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/plain",
+    "Depth": 0,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": 48,
+    "URL": "http://ethicalfrenchie.com/",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/plain",
+    "Depth": 0,
+    "Is indexable page": "No",
+    "No. of inlinks": 0
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.petco.com/shop/en/petcostore/product/harmony-stainless-steel-slow-feeder-65-cups-2699311?cm_mmc=PLA-GG-_-PTC_P_SUP_PLA-GG_FY18_SCShopping-Private Label-_-61469349532-_-A&kpid=go_1426171603_61469349532_274415551816_pla-559951713359_c&scid=scplp2699311&sc_intid=2699311&utm_config=tad0iunwp&gclid=Cj0KCQiA3b3gBRDAARIsAL6D-N_Ej-Pi-hLBeq2gzrYUeTt5f5nQkblXEfx04ZXl5WC1iqgkz5dj2ZYaAi0PEALw_wcB",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html;charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.chewy.com/nutro-ultra-puppy-dry-dog-food-30-lb/dp/34796?gclid=Cj0KCQiA3b3gBRDAARIsAL6D-N_csHjhBq1RLQF2lBaMv_ECE_MpH6YOyGETVtpQkujP3DRylFSW9yYaAr6SEALw_wcB",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html;charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.thehonestkitchen.com/dog-food/treats",
+    "Organic traffic": 212.657392,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.canadapooch.com/outerwear",
+    "Organic traffic": 554.539175,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://skinnyms.com/",
+    "Organic traffic": 1966.171122,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.akc.org/expert-advice/training/basic-training/teaching-a-dog-to-swim-canine-swimming-lesson-101/",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://earthbath.com/product-category/wipes/",
+    "Organic traffic": 173.514582,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://naturaldogcompany.com/",
+    "Organic traffic": 1912.487071,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 2
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://earthbath.com/",
+    "Organic traffic": 1342.763261,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.akc.org/expert-advice/health/common-conditions/dog-myths-debunked-dog-dental-care/",
+    "Organic traffic": 0,
+    "HTTP status code": 301,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://lexiscleankitchen.com/",
+    "Organic traffic": 2058.685643,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.thehonestkitchen.com/dog-food/meals",
+    "Organic traffic": 308.596905,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.openfarmpet.com/dog-food-recipes/freeze-dried-raw/grass-fed-beef-freeze-dried-raw-grain-free-dog-food?gclid=Cj0KCQiAgMPgBRDDARIsAOh3uyJGuCmz0Ru1XjjlHIsbA9zJq67P3eKRBindI2yteZiDnsc5IC5w0O8aAlovEALw_wcB",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.thefarmersdog.com/?publisherId=173678&clickId=2540482782&creative_details=8-11935",
+    "Organic traffic": 0,
+    "HTTP status code": 200,
+    "Content type": "text/html; charset=utf-8",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  },
+  {
+    "Page rating (desc)": "",
+    "URL": "https://www.stellaandchewys.com/dog-food/raw-blend-kibble",
+    "Organic traffic": 963.607901,
+    "HTTP status code": 403,
+    "Content type": "text/html",
+    "Depth": 1,
+    "Is indexable page": "",
+    "No. of inlinks": 1
+  }
+]

@@ -25,31 +25,39 @@
 {{ end }}
 {{ define "scripts" }}
 <script>
-    var getHTML = (url, callback) => {
+    var getHTML = (url, timeout, callback) => {
     // Feature detection
     if ( !window.XMLHttpRequest ) return;
     // Create new request
     var xhr = new XMLHttpRequest();
+    // Timeout log
+    xhr.ontimeout = function () {
+      console.error("The request for " + url + " timed out.");
+    };
     // Setup callback
     xhr.onload = function() {
       if ( callback && typeof( callback ) === 'function' ) {
         callback( this.responseXML );
       }
+      if (xhr.readyState != 4) return;
+      if (xhr.status != 200 && xhr.status != 304) {
+        console.log('HTTP error ' + xhr.status);
+        return;
+      }
     }
     // Get the HTML
     xhr.open( 'GET', url );
     xhr.responseType = 'document';
+    xhr.timeout = timeout;
     xhr.send();
   };
   // Fetch and appen instant articles
   let instant = document.querySelector('section.instant-wrap')
   {{ range .Pages }}
   {{ $link := replaceRE " " "-" (.Title | lower) }}
-  getHTML('/puppies/{{ $link }}',(response) => {
+  getHTML('/puppies/{{ $link }}',2000,(response) => {
     const post = response.querySelector('article.post.instant')
     instant.append(post)
-    // Update Lazy Loader to initialize after articles are fetched
-    myLazyLoad.update()
   });
   {{ end }}
 
@@ -60,8 +68,14 @@
     link.addEventListener('click', () => {
       const data = link.getAttribute('data-instant')
       const instArt = document.querySelector('article#'+data)
+      const img = instArt.querySelectorAll('figure > img')
       instant.classList.add('active')
       instArt.classList.add('active')
+      img.forEach(i => {
+        const l = i.getAttribute('data-src')
+        i.setAttribute('src',l)
+        i.classList.add('loaded')
+      })
     })
   })
 
@@ -69,6 +83,7 @@
   var closeInst = name => {
     const instArt = document.querySelector('article#'+name)
     instant.classList.remove('active')
+    console.log(instArt)
     setTimeout(() => {
       instArt.classList.remove('active')
     }, 250);

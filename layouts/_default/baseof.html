@@ -8,7 +8,6 @@
   <meta name="author" content="{{ .Site.Author.name }}">
   <meta name="developer" content="{{ .Site.Author.dev }}">
   <meta name="description" content="{{ .Site.Params.description }}">
-  <meta name="keywords" content="{{ .Site.Params.keywords }}">
   <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1.0,maximum-scale=5.0,viewport-fit=cover">
   <meta name="theme-color" content="#900c3f">
 
@@ -16,9 +15,9 @@
   {{ $icon := resources.Get "icons/icon.png" }}
   <link rel="canonical" href="{{ .Permalink }}">
   {{ template "_internal/twitter_cards.html" . }}
-  <meta name="twitter:image" content="{{ $icon.RelPermalink }}">
+  <meta name="twitter:image" content="{{ $icon.Permalink }}">
   {{ template "_internal/opengraph.html" . }}
-  <meta property="og:image" content="{{ $icon.RelPermalink }}">
+  <meta property="og:image" content="{{ $icon.Permalink }}">
   {{ template "_internal/schema.html" . }}
 
   <!-- Critical -->
@@ -64,11 +63,14 @@
   {{ block "scripts" . }}
   {{ end }}
 
+  <!-- Scripts -->
+  {{ $js := resources.Get "js/bundle.js" }}
+  <script async src="{{ $js.Permalink }}"></script>
   <!-- SW -->
   {{ $sw := resources.Get "sw.js" | minify }}
   <script>
     if (navigator.serviceWorker) {
-      navigator.serviceWorker.register("{{ $sw.RelPermalink }}", { scope: "/" });
+      navigator.serviceWorker.register("{{ $sw.Permalink }}", { scope: "/" });
       navigator.serviceWorker.ready.then(registration => {
         console.log("SW Ready");
       });
@@ -79,28 +81,14 @@
       });
     }
   </script>
-
-  {{ $smooth := resources.Get "js/smooth.js" }}
-  {{ $lazy := resources.Get "js/lazy-loading.js" }}
-  {{ $swiper := resources.Get "js/swiper.js" }}
-  {{ $bundle := slice $smooth $lazy $swiper | resources.Concat "js/bundle.js" | minify }}
-  <script src="{{ $bundle.Permalink }}"></script>
+  <!-- Intercom -->
   <script>
-    var myLazyLoad = new LazyLoad({
-      elements_selector: '.lazy',
-      threshold: 500,
-      class_loading: 'loading',
-      class_error: "error"
-    });
-  </script>
-  {{ if or (.IsHome) (eq .Title "About Us") }}
-    <script>
-      var swiper = new Swiper('.swiper-container', {
-        autoplay: {
-          delay: 5000,
-        }
-      });
+      var APP_ID = "i8tzz3ek";
+    
+     window.intercomSettings = {
+        app_id: APP_ID
+      };
     </script>
-{{ end }}
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 </body>
 </html>
