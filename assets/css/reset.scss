@@ -1,4 +1,3 @@
-// Reset
 a,
 article h2 a {
   color: $text;
@@ -6,13 +5,13 @@ article h2 a {
 article,
 footer,
 header,
-main, {
+main {
   padding: 15px;
 }
 a:active,
 a:hover,
 article h2 a:active,
-article h2 a:hover, {
+article h2 a:hover {
   color: $main;
   text-decoration: underline;
 }
