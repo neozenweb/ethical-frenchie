@@ -23,21 +23,21 @@ export default {
       }
     ]
   },
-  // plugins: [
-  //   new CopyWebpackPlugin([{
-  //     from: 'assets/img/',
-  //     to: path.resolve(__dirname, 'assets', 'img'),
-  //     test: /\.(jpe?g)$/,
-  //     ignore: ['*.png','*.svg']
-  //   }]),
-  //   new ImageminPlugin({
-  //     plugins: [
-  //       imageminMozjpeg({
-  //         test: /\.(jpe?g)$/,
-  //         quality: 60,
-  //         progressive: true
-  //       })
-  //     ]
-  //   })
-  // ]
+  plugins: [
+    new CopyWebpackPlugin([{
+      from: 'assets/img/',
+      to: path.resolve(__dirname, 'assets', 'img'),
+      test: /\.(jpe?g)$/,
+      ignore: ['*.png','*.svg']
+    }]),
+    new ImageminPlugin({
+      plugins: [
+        imageminMozjpeg({
+          test: /\.(jpe?g)$/,
+          quality: 60,
+          progressive: true
+        })
+      ]
+    })
+  ]
 }
