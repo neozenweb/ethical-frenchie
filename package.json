@@ -4,7 +4,7 @@
   "description": "Ethical Frenchie is the most trusted source of French Bulldog puppies for sale. We provides thorough veterinary and genetic examinations for each puppy.",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp build --max_old_space_size=8000; hugo",
+    "build": "webpack; gulp build --max_old_space_size=8000; hugo",
     "clean": "rm -rf public resources",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
