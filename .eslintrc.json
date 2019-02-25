@@ -24,6 +24,7 @@
     "id-length": 2,
     "import": 0,
     "import/prefer-default-export": 0,
+    "linebreak-style": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,
     "no-debugger": 0,
@@ -32,12 +33,8 @@
     "no-else-return": 2,
     "no-inner-declarations": 2,
     "no-lonely-if": 2,
-    "no-magic-numbers": [
-      2,
-      {
-        "ignore": [-1, 0, 1]
-      }
-    ],
+    "no-magic-numbers": "off",
+    "no-param-reassign": ["error", { "props": false }],
     "no-shadow": [
       2,
       {
@@ -77,9 +74,10 @@
     "prettier/prettier": [
       "error",
       {
-        "trailingComma": "es5",
+        "endOfLine":"auto",
+        "printWidth": 80,
         "singleQuote": true,
-        "printWidth": 80
+        "trailingComma": "es5"
       }
     ],
     "sort-imports": 2,
