@@ -1,9 +1,12 @@
 {
   "env": {
     "browser": true,
+    "commonjs": true,
+    "es6": true,
     "jquery": true,
     "jest": true,
-    "node": true
+    "node": true,
+    "serviceworker": true
   },
   "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
@@ -21,14 +24,28 @@
     "curly": 2,
     "dot-notation": 2,
     "func-names": 0,
-    "id-length": 2,
+    "id-length": [
+      2,
+      {
+        "exceptions": ["i","a","b"]
+      }
+    ],
     "import": 0,
     "import/prefer-default-export": 0,
     "linebreak-style": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,
-    "no-debugger": 0,
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
     "no-const-assign": 2,
+    "no-debugger": 0,
     "no-dupe-class-members": 2,
     "no-else-return": 2,
     "no-inner-declarations": 2,
@@ -49,6 +66,7 @@
         ]
       }
     ],
+    "no-nested-ternary": "off",
     "no-unneeded-ternary": 2,
     "no-unused-expressions": 2,
     "no-unused-vars": [
