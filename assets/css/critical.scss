@@ -209,4 +209,7 @@ body {
       }
     }
   }
+  div#intercom-container > div.intercom-app > iframe.intercom-launcher-frame {
+    bottom: 80px !important;
+  }
 }
