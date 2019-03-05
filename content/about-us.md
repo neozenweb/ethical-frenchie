@@ -5,7 +5,11 @@
  showthedate = false
 +++
 
+<h2>Who We Are</h2>
+
 Hi! We're James & Renee, the most exclusive frenchie breeder on the east coast.
+
+<h2>What We Do</h2>
 
 We’re passionate about what we do, but more importantly we understand the frustrations of searching high and low while trying to avoid scams and puppy mills alike. We work diligently to ensure that we are following the best french bulldog breeding practices and work extra hard to make sure your future family member is healthy & socialized to fit your specific family’s needs.
 
