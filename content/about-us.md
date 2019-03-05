@@ -1,5 +1,6 @@
 +++
- title = "About Us"
+ title = "About Us | Ethical Frenchie"
+ description = "Ethical Frenchie is the #1 French Bulldog adoption service and breeder on the East Coast."
  draft = false
  showthedate = false
 +++
