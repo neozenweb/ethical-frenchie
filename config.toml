@@ -3,7 +3,7 @@ copyright = "Ethical Frenchie LLC"
 enableEmoji = "true"
 enableRobotsTXT = "true"
 languageCode = "en-us"
-title = "Ethical Frenchie"
+title = "Ethical Frenchie | French Bulldogs For Sale"
 
 SectionPagesMenu = "main"
 summarylength = 10
@@ -19,7 +19,7 @@ summarylength = 10
 [params]
   OpenLinksInNewWindow = true
   social = "ethicalfrenchie"
-  description = "Ethical Frenchie is the most trusted source of French Bulldog puppies for sale. We provides thorough veterinary and genetic examinations for each puppy."
+  description = "Find the best french bulldogs for sale over the phone or in person. Vigorous qualification standards. Applications required. Call now (800) 205-7859."
 
 [author]
   name = "James Harrison"
