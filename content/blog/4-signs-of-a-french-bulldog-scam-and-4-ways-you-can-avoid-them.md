@@ -25,7 +25,7 @@ draft: true
 ---
 ## 4 Signs of a French Bulldog Scam
 
-![Woman Loving Her French Bulldog](/img/blog/frenchbulldoggrandma2.jpg "Happy Ethical Frenchie Customer")
+![Woman Loving Her French Bulldog](https://raw.githubusercontent.com/jamesETF/ethical-frenchie/master/assets/img/blog/frenchbulldoggrandma2.jpg "Happy Ethical Frenchie Customer")
 
 Con artists are quite sophisticated. They know what to ask you and how to act to appear legitimate. Make sure that you’re always cautious when shopping for a puppy and look for signs that the seller doesn’t have the best intentions. 
 
