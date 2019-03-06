@@ -40,7 +40,7 @@ Scam artists are magicians when it comes to pressure. They will ask you to wire 
 
 2. A Deal That’s Too Good to Be True
 
-![Happy Frenchie Puppy](/img/blog/frenchbulldogscams.jpg "Happy Frenchie Puppy from Ethical Frenchie")
+![Happy Frenchie Puppy](https://raw.githubusercontent.com/jamesETF/ethical-frenchie/master/assets/img/blog/frenchbulldogscams.jpg "Happy Frenchie Puppy from Ethical Frenchie")
 
 Quality purebred dogs cost money. When you see a French Bulldog listed for a remarkably low price, you should be suspicious. 
 
@@ -54,7 +54,7 @@ The reality is that con artists know we have hearts and would love to give a pup
 
 4. They’ll Have That Rare Color or Size
 
-![Blue French Bulldog Puppy - Ethical Frenchie](/img/blog/blue-frenchie.jpg "Cute Blue Frenchie Puppy")
+![Blue French Bulldog Puppy - Ethical Frenchie](https://raw.githubusercontent.com/jamesETF/ethical-frenchie/master/assets/img/blog/blue-frenchie.jpg "Cute Blue Frenchie Puppy")
 
 While Blue, Sable, and Chocolate Brindle French Bulldogs are favorites among enthusiasts, they are rare. Many opportunistic scammers will know that, too. They take advantage of hard to find colors by borrowing pictures off Google and advertising these puppies as their own. Often these puppies don’t even exist.
 
@@ -76,13 +76,13 @@ You can always ask a responsible breeder for references. Reputable breeders want
 
 3. Meet the Parents
 
-![Meet the parents image](/img/blog/frenchievet.jpg "image of Adult French Bulldogs")
+![Meet the parents image](https://raw.githubusercontent.com/jamesETF/ethical-frenchie/master/assets/img/blog/frenchievet.jpg "image of Adult French Bulldogs")
 
 It’s important to remember that bringing home a new dog is a huge commitment. It’s reasonable to want to see where the puppies were raised and see their sire and dam, or at least their dam. Survey the area where the puppies are kept. Is it clean? Is it odor-free? And make sure you pay attention to the dam’s condition. Not only should she be clean, but she should be healthy and happy!
 
 4. Have Your Vet Check out the Puppy
 
-![French Bulldog At The Vet](/img/blog/vet.jpg "Frenchie at the vet")
+![French Bulldog At The Vet](https://raw.githubusercontent.com/jamesETF/ethical-frenchie/master/assets/img/blog/vet.jpg "Frenchie at the vet")
 
 One of the most heartbreaking outcomes of a Frenchie puppy scam is when you have the lovable fur-ball in your hands and you’re absolutely in love, just to find out that the puppy is ill or not the purebred you expected. 
 
