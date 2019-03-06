@@ -6,7 +6,8 @@ category:
   - Scams
   - Frenchie Puppy
 author: Renee Harrison
-image: /img/blog/french-bulldog-scams.jpg
+image: >-
+  https://raw.githubusercontent.com/jamesETF/ethical-frenchie/master/assets/img/blog/french-bulldog-scams.jpg
 description: >-
   One of the most exciting parts of bringing home a Frenchie puppy is imagining
   all the memories you’ll make and all the love you’ll share with your new best
