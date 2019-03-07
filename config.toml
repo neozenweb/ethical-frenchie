@@ -11,7 +11,6 @@ summarylength = 10
 [permalinks]
   blog = "/:title/"
 
-
 [blackfriday]
   hrefTargetBlank = true
   plainIDAnchors = true
@@ -28,7 +27,7 @@ summarylength = 10
   devEmail = "hello@juanvillela.me"
 
 [params.google]
-  analytics = ""
+  analytics = "UA-131053938-1"
   tagManager = ""
   adsense = ""
 
