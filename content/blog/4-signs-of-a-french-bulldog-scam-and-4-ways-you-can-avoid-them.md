@@ -22,7 +22,7 @@ description: >-
   French Bulldog scams can result in a loss of money or adopting a dog that’s
   not purebred, or even worse – a dog with a serious illness like Parvo.
 showthedate: true
-draft: true
+draft: false
 ---
 ## 4 Signs of a French Bulldog Scam
 
