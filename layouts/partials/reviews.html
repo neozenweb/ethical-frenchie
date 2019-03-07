@@ -1,0 +1,21 @@
+<section class="rating">
+  <div class="average"><span class="out-of"></span></div>
+  <div class="star-display">
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+    <span class="star"></span>
+  </div>
+</section>
+<section class="reviews">
+  {{ range $i, $review := .Site.Data.ratings.reviews }}
+  <div class="review-item">
+    <p class="name">{{ $review.Name }}</p>
+    <time datetime="{{ $review.Date }}" class="date meta">{{ $review.Date }}</time>
+    <div class="comment">
+      <p>{{ $review.Comment }}</p>
+    </div>
+  </div>
+  {{ end }}
+</section>

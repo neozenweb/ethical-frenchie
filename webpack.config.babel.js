@@ -7,6 +7,7 @@ export default {
   mode: process.env.NODE_ENV || 'production',
   entry: [
     './assets/js/smooth.js',
+    './assets/js/testimonials.js',
     './assets/js/lazy.js',
     './assets/js/swiper.js',
   ],

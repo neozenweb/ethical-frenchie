@@ -27,7 +27,7 @@ module.exports = {
     'id-length': [
       2,
       {
-        exceptions: ['i', 'a', 'b'],
+        exceptions: ['i', 'a', 'b', 'e', 'el'],
       },
     ],
     import: 0,
