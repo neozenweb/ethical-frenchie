@@ -561,6 +561,29 @@ main {
         transform: translateX(0%) !important;
       }
     }
+    section.extra-content {
+      margin-bottom: 30px;
+      div.content-box {
+        border-radius: 15px;
+        box-shadow: $box-lg;
+        color: $background;
+        margin: 0 15px;
+        padding: 20px;
+        h3 {
+          font-weight: bold;
+          margin: 10px 0 5px;
+        }
+        p {
+          margin: 0 0 10px;
+        }
+        &.top {
+          background-color: #4A89DC;
+        }
+        &.bottom {
+          background-color: #8CC152;
+        }
+      }
+    }
   }
   &.contact {
     form#message {
