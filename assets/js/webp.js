@@ -6,21 +6,24 @@ function WebpIsSupported(callback) {
   }
 
   // Base64 representation of a white point image
-  var webpdata =
+  const webpdata =
     'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoCAAEAAQAcJaQAA3AA/v3AgAA=';
 
   // Retrieve the Image in Blob Format
   fetch(webpdata)
-    .then(function(response) {
-      return response.blob();
+    .then(response => {
+      if (response.ok) {
+        return response.blob();
+      }
+      throw new Error('Network response was not ok.');
     })
-    .then(function(blob) {
+    .then(blob => {
       // If the createImageBitmap method succeeds, return true, otherwise false
       createImageBitmap(blob).then(
-        function() {
+        () => {
           callback(true);
         },
-        function() {
+        () => {
           callback(false);
         }
       );
@@ -28,7 +31,7 @@ function WebpIsSupported(callback) {
 }
 // Added class to supported
 const hero = document.querySelectorAll('section.hero');
-WebpIsSupported(function(isSupported) {
+WebpIsSupported(isSupported => {
   if (isSupported) {
     hero.forEach(bg => {
       bg.classList.add('webp');

@@ -1,9 +1,9 @@
 {{ define "main" }}
   {{ partial "header.html" . }}
-  <main class="separate{{ if eq .Title "About Us" }} about{{ else if eq .Title "Contact Us" }} contact{{ else if eq .Title "Puppies" }} puppies{{ end }}">
-    {{ if eq .Title "About Us" }}
+  <main class="separate{{ if eq .Title "About Us | Ethical Frenchie" }} about{{ else if eq .Title "Contact Us | Ethical Frenchie" }} contact{{ else if eq .Title "Puppies" }} puppies{{ end }}">
+    {{ if eq .Title "About Us | Ethical Frenchie" }}
       {{ partial "about-us.html" . }}
-    {{ else if eq .Title "Contact Us" }}
+    {{ else if eq .Title "Contact Us | Ethical Frenchie" }}
       {{ partial "contact-us.html" . }}
     {{ else if eq .Title "Puppies" }}
       {{ partial "puppies.html" . }}
