@@ -1,5 +1,5 @@
 ---
-title: Cheap French Bulldog Puppies Under $500?
+title: Cheap French Bulldog Puppies Under $500? | Ethical Frenchie
 date: '2018-01-24'
 category:
   - health
