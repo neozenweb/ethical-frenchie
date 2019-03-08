@@ -1,9 +1,9 @@
 +++
- title = "The Blue Pied French Bulldog Puppies"
+ title = "Blue Pied French Bulldog Puppies | Ethical Frenchie"
  date = "2019-01-05"
  category = ["french bulldog puppy for sale"]
  image = "the-blue-pied-french-bulldog-puppies_hero.jpg"
- description = "The first 2019 French Bulldog Puppies are almost ready. We didn’t post about them much and tried to keep it low key until they had their first extensive vet exam, but I just couldn’t resist so i had to share the news of our Blue Pied French Bulldog Puppies..."
+ description = "The first 2019 French Bulldog puppies are almost ready. We just couldn’t resist sharing the upcoming news of our beautiful blue french bulldog litter."
  draft = false
  showthedate = true
 +++
@@ -13,7 +13,7 @@ Here are a few highlights since their birth in December to now...
 ## French Bulldog Puppies just minutes after birth...
 {{< img src="blog/the-blue-pied-french-bulldog-puppies_1.jpg" alt="French Bulldog Puppies just minutes after birth" >}}
 
-Some breeders prefer to whelp naturally, which is OK. They know their dog best and if they feel that it’s a good choice in a certain situation and that all French bulldog puppies will survive I say go for it. However, we prefer to go with the surgical procedure 90% of the time. We went with the natural birth one time only and it resulted in complication and death of 3 puppies. We have our trusted vet do the procedure. This time we welcomed 5 healthy French Bulldog puppies, 3 girls and 3 boys.
+Some breeders prefer to whelp naturally, which is OK. They know their dog best and if they feel that it’s a good choice in a certain situation and that all <a href="https://ethicalfrenchie.com/puppies/">French bulldog puppies</a> will survive I say go for it. However, we prefer to go with the surgical procedure 90% of the time. We went with the natural birth one time only and it resulted in complication and death of 3 puppies. We have our trusted vet do the procedure. This time we welcomed 5 healthy French Bulldog puppies, 3 girls and 3 boys.
 
 ## Eating and Growing...
 {{< img src="blog/the-blue-pied-french-bulldog-puppies_2.jpg" alt="Eating and Growing" >}}

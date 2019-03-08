@@ -1,9 +1,9 @@
 +++
- title = "Top 5 Things You Should Know When Buying a French Bulldog Puppy?"
+ title = "Top 5 Things You Should Know When Buying A French Bulldog Puppy | Ethical Frenchie"
  date = "2017-08-23"
  category = ["french bulldog care", "health"]
  image = "top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_hero.jpg"
- description = "First keep in mind bringing a new french bulldog puppy to your family is a life time commitment. Ask yourself if this is something you are ready to commit to. If the answer is YES, then keep on reading."
+ description = "New to frenchie ownership? Here are 5 things you should know before you decide on a french bulldog puppy."
  draft = false
  showthedate = true
 +++
@@ -11,7 +11,7 @@
 ## About the breed:
 So.. **what to know when buying a French Bulldog Puppy?** First let’s get over some basics. French Bulldogs are one of the most popular small dog breeds in the world. They are comical, entertaining, polite to other people and animals and very loving. Sounds perfect, right?
 
-Unfortunately the French Bulldog breed definitely isn’t for everyone. French Bulldog Puppies require a lot of care and devotion that not every pet owner can provide, either due to lack of time, financial limits, etc.. If you fell in love with this breed like many do be prepared to deal with some health issues, snorting, flatulence, etc.
+Unfortunately the French Bulldog breed definitely isn’t for everyone. <a href="https://ethicalfrenchie.com/puppies/">French Bulldog Puppies</a> require a lot of care and devotion that not every pet owner can provide, either due to lack of time, financial limits, etc.. If you fell in love with this breed like many do be prepared to deal with some health issues, snorting, flatulence, etc.
 
 {{< img src="blog/top-5-things-you-should-know-when-buying-a-french-bulldog-puppy_1.jpg" alt="French Bulldog" >}}
 
@@ -23,7 +23,7 @@ Another important thing on the list of **“What to know when buying a French Bu
 
 They tend to have trouble breathing due to their smushed faces, meaning they aren’t the best at regulating body temperature. Because of that French Bulldog Puppies can easily overheat in the summer, so make sure they have plenty of water and don’t stay outside for too long.
 
-French Bulldogs are usually stubborn and it takes a while to completely potty train them. Make sure you establish yourself as the alpha to gain respect from your Frenchie, which will make the whole process easier. Not only the potty training process but everything from walking on the leash to obeying simple commands. We made a blog with tips on **French Bulldog potty training** which has proven to work multiple times.
+French Bulldogs are usually stubborn and it takes a while to completely potty train them. Make sure you establish yourself as the alpha to gain respect from your Frenchie, which will make the whole process easier. Not only the potty training process but everything from walking on the leash to obeying simple commands. We made a <a href="https://ethicalfrenchie.com/potty-train-your-frenchie/">blog post with tips</a> on **French Bulldog potty training** which has proven to work multiple times.
 
 Now let’s just skip to supplies and grooming tips…
 
