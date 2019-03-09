@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <main class="list">
+    {{ range .Pages }}
+      {{ .Render "li"}}
+    {{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+{{ end }}

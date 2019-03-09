@@ -8,8 +8,12 @@ title = "Ethical Frenchie | French Bulldog Puppies"
 SectionPagesMenu = "main"
 summarylength = 10
 
+[taxonomies]
+  category = "category"
+
 [permalinks]
-  blog = "/:title/"
+  blog = "/:slug/"
+  category = "/blog/category/:slug/"
 
 [blackfriday]
   hrefTargetBlank = true

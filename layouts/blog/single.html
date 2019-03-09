@@ -11,13 +11,7 @@
         </section>
         {{ $s := .Section }}
         <section class="details">
-          <p class="tag meta">
-            <span>In: </span>
-            {{ range $key, $cat := .Params.category }}
-              {{- if ne $key 0 }}<span>, </span>{{ end }}
-              <a class="meta" href="/{{ $s }}/category/{{ $cat }}">{{ $cat }}</a>
-            {{ end }}
-          </p>
+          {{ partial "tax.html" . }}
           <p class="author meta">By: {{ .Site.Author.name }}</p>
           <time class="date meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
         </section>

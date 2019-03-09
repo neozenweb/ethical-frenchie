@@ -6,13 +6,7 @@
   <section class="details">
     <h2 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     {{ $s := .Section }}
-    <p class="tag">
-      <span>In: </span>
-      {{ range $key, $cat := .Params.category }}
-        {{- if ne $key 0 }}<span>, </span>{{ end }}
-        <a class="meta" href="/{{ $s }}/category/{{ $cat }}">{{ $cat }}</a>
-      {{ end }}
-    </p>
+    {{ partial "tax.html" . }}
     <p class="content meta">{{ .Summary }}</p>
     <p class="author">By: {{ .Site.Author.name }}</p>
     <time class="meta date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>

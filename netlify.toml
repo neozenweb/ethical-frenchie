@@ -6,3 +6,33 @@
 
 [context.branch-deploy]
   HUGO_VERSION = "0.53"
+
+[[redirects]]
+  from = "/blog/category/french bulldog care"
+  to = "/blog/category/french-bulldog-care"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/category/french bulldog puppy for sale"
+  to = "/blog/category/french-bulldog-puppy-for-sale"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/category/Frenchie Puppy"
+  to = "/blog/category/frenchie-puppy"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/category/Scams"
+  to = "/blog/category/scams"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/category/French Bulldog"
+  to = "/blog/category/french-bulldog"
+  status = 301
+  force = false

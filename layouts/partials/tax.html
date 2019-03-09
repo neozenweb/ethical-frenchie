@@ -1,0 +1,10 @@
+{{ $s := .Section }}
+<p class="tag meta">
+  <span>In: </span>
+  {{ range $key, $cat := .Params.category }}
+    {{- if ne $key 0 }}<span>, </span>{{ end }}
+    {{ $cd := $cat | lower }}
+    {{ $c := replaceRE " " "-" $cd }}
+    <a class="meta" href="/{{ $s }}/category/{{ $c }}">{{ $cat }}</a>
+  {{ end }}
+</p>
