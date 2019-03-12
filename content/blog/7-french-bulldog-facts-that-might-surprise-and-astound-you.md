@@ -24,7 +24,7 @@ The late Carrie Fisher was also known to walk the red carpet with her French Bul
 
 
 2.	The French Bulldog Could have Been Named the “French-English-and-American Bulldog
-{{< img src="blog/english-bulldog-french-bulldog.jpg" alt="Happy Frenchie Puppy from Ethical Frenchie" >}}
+{{< img src="blog/english-bulldog-french-bulldog-puppy.jpg" alt="Happy Frenchie Puppy from Ethical Frenchie" >}}
 
 The French Bulldog is a not-so-distant descendant of its larger cousin, the English Bulldog. About 150-200 years ago, while English Bulldogs seemed to get buffer and beefier, there were breeders that were developing a smaller, daintier bulldog. These more petite pooches were all the rage for English lace-makers.
 
