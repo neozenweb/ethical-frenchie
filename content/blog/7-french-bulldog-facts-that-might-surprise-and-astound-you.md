@@ -36,6 +36,8 @@ So, all three countries played important roles in the Frenchie we know and love 
 
 3.	Frenchies are a Big-City Favorite
 
+{{< img src="blog/french-bulldog-meetup.jpg" alt="Happy Frenchie Puppy from Ethical Frenchie" >}}
+
 While it’s easy to see why Frenchies are so darn lovable, their popularity stats in the United States are remarkable!
 
 In 2013, the French Bulldog rose to the 11th most popular breed according to the American Kennel Club. And by 2017, they climbed to the 4th spot on this prestigious list.
@@ -48,11 +50,16 @@ Their easy-going nature and compact, but sturdy, size makes them the perfect com
 
 4.	Oh, Toto! There’s No Dog like a Frenchie!
 
+{{< img src="blog/french-bulldog-linkedin-photo.jpg" alt="Happy Frenchie Puppy from Ethical Frenchie" >}}
+
 While the dog actor that played Toto in the film production of The Wizard of Oz, was a Cairn Terrier named Terry, the original illustrator of The Road to Oz and The Emerald City, R. A. Neill, depicted Toto as a French Bulldog. If it weren’t for a last-minute change, the film version of Toto probably would have been played by a fabulous Frenchie instead. A Wichita resident pushed for Toto to be played by a Cairn Terrier since they were the state dog of Kansas. 
 
 But there’s truly no place like home with a Frenchie waiting for you. And the Golden Brick Road would have been a bit brighter had it been graced with an adorable French Bulldog as R. A. Neill had intended.
 
 5.	Your Frenchie is No Michael Phelps
+
+
+{{< img src="blog/french-bulldog-at-the-beach.jpg" alt="Happy Frenchie Puppy from Ethical Frenchie" >}}
 
 If you see a French Bulldog in a lake or pool, it’s probably adorned in a life jacket. This isn’t just a great fashion statement. Most Frenchies cannot swim without one. 
 
@@ -61,6 +68,8 @@ The French Bulldog’s top-heavy build makes it difficult for them to keep thems
 But this doesn’t prevent them from being able to wade in shallow water or take a bath (even though yours may try to convince you that baths are unnecessary). This makes them perfect candidates to be spoiled with a baby pool or a flashy life vest. 
 
 6.	Ribbit, Ribbit! Here Comes the Frog Dog!
+
+{{< img src="blog/fenglish-bulldog-french-bulldog-puppy.jpg" alt="Happy Frenchie Puppy from Ethical Frenchie" >}}
 
 While Frenchies are known for being a Yankee favorite, they rarely get called “Yankee dogs.” In fact, you’re much more likely to here one of these love bugs referred to as “frog dogs.” This may seem odd since they aren’t aquatic athletes, but it has more to do with their origin and appearance.
 
@@ -76,4 +85,6 @@ Many people are more familiar with this nickname as a reference to how our Frenc
 
 Eric, or Eroc, the French bulldog is also one of the latest stars you’ll find shredding the pavement in the French Bulldog skateboarding world! 
 
-Whether your French Bulldog is a celebrity or not, we hope you learned a little bit more about this beloved breed. Choose your favorite fact and celebrate your Frenchie’s unique heritage with some tasty French Bulldog Homemade Treats!
+Whether your French Bulldog is a celebrity or not, we hope you learned a little bit more about this beloved breed. Choose your favorite fact and celebrate your Frenchie’s unique heritage!  
+
+And as always, if you know of anyone looking to add a new family member to their household, like, comment, share!
