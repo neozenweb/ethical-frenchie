@@ -67,7 +67,7 @@
   let instant = document.querySelector('section.instant-wrap')
   {{ range .Pages }}
   {{ $link := replaceRE " " "-" (.Title | lower) }}
-  getHTML('/puppies/{{ $link }}',2000,(response) => {
+    getHTML('/puppies/{{ $link }}',2000,(response) => {
     const post = response.querySelector('article.post.instant')
     instant.append(post)
   });
@@ -76,15 +76,15 @@
   // Activate instant articles on click
   let openArtLink = document.querySelectorAll('a.button.instant')
   openArtLink.forEach(link => {
-    link.removeAttribute('href')
-    link.addEventListener('click', () => {
+     // link.removeAttribute('href')
+      link.addEventListener('click', () => {
       const data = link.getAttribute('data-instant')
       const instArt = document.querySelector('article#'+data)
       const img = instArt.querySelectorAll('figure > img')
       instant.classList.add('active')
       instArt.classList.add('active')
       img.forEach(i => {
-        const l = i.getAttribute('data-src')
+      const l = i.getAttribute('data-src')
         i.setAttribute('src',l)
         i.classList.add('loaded')
       })
