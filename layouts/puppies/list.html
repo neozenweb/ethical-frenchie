@@ -37,6 +37,7 @@
 {{ end }}
 {{ define "scripts" }}
 <script>
+    
     var getHTML = (url, timeout, callback) => {
     // Feature detection
     if ( !window.XMLHttpRequest ) return;
@@ -74,9 +75,11 @@
   {{ end }}
 
   // Activate instant articles on click
+  
   let openArtLink = document.querySelectorAll('a.button.instant')
   openArtLink.forEach(link => {
-     // link.removeAttribute('href')
+      const url = link.getAttribute('href')
+      link.removeAttribute('href')
       link.addEventListener('click', () => {
       const data = link.getAttribute('data-instant')
       const instArt = document.querySelector('article#'+data)
@@ -88,8 +91,10 @@
         i.setAttribute('src',l)
         i.classList.add('loaded')
       })
+      console.log(url + "LOADED \n");
+      window.history.replaceState(url, data,"/puppies/"+data)
+     })
     })
-  })
 
   // Close instant articles
   var closeInst = name => {
