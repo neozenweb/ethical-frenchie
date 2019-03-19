@@ -99,11 +99,13 @@
   // Close instant articles
   var closeInst = name => {
     const instArt = document.querySelector('article#'+name)
+    const urlnew = window.location.href
     instant.classList.remove('active')
     console.log(instArt)
     setTimeout(() => {
       instArt.classList.remove('active')
     }, 250);
+    window.history.replaceState(urlnew, "puppies","/puppies/")
   }
 </script>
 {{ end }}
